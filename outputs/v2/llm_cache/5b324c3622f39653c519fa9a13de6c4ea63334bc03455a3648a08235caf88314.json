@@ -1,0 +1,44 @@
+{
+  "request": {
+    "model": "openai/gpt-4o-mini",
+    "temperature": 0,
+    "max_tokens": 128,
+    "response_format": {
+      "type": "json_object"
+    },
+    "provider": {
+      "max_price": {
+        "prompt": 0.15,
+        "completion": 0.6
+      },
+      "require_parameters": true
+    },
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route spatial service tasks. An agent appends work to its FIFO queue. It cannot start travelling until both now and its committed_finish have passed. Travel is Euclidean distance from queue_end_position to task location divided by speed. Execution duration is workload divided by its proficiency for required_skill (floor 0.05). Estimate the duration from now until this task completes, including waiting, travel and execution. Use only the supplied state. Return only the requested JSON object, without explanation. Return {\"bid\": nonnegative number} for this agent."
+      },
+      {
+        "role": "user",
+        "content": "{\"now\":389.859619,\"task\":{\"task_id\":26,\"required_skill\":4,\"workload\":7.367419,\"location\":[44.292878,59.322641],\"arrival\":389.859619,\"deadline\":null},\"agent\":{\"agent_id\":0,\"skills\":[0.362411,0.919058,0.469874,0.385154,0.271809],\"speed\":1.230795,\"queue_end_position\":[71.154835,31.966803],\"committed_finish\":486.624876,\"queue\":[{\"task_id\":24,\"required_skill\":3,\"workload\":7.824087,\"location\":[77.619157,82.465899],\"arrival\":379.341657,\"deadline\":null,\"service_start\":412.600789,\"finish\":432.91499},{\"task_id\":25,\"required_skill\":2,\"workload\":5.800799,\"location\":[71.154835,31.966803],\"arrival\":387.855305,\"deadline\":null,\"service_start\":474.279439,\"finish\":486.624876}]}}"
+      }
+    ],
+    "usage": {
+      "include": true
+    }
+  },
+  "value": 96.764999,
+  "attempts": [
+    {
+      "attempt": 1,
+      "prompt_tokens": 351,
+      "completion_tokens": 8,
+      "cost_usd": 5.745e-05,
+      "valid": true,
+      "failed": false,
+      "error": null,
+      "response": "{\"bid\":96.764999}",
+      "latency_seconds": 0.9498327999608591
+    }
+  ]
+}

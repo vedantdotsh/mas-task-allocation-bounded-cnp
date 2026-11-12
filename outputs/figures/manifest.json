@@ -1,0 +1,24 @@
+{
+  "paper_figure_to_filename": {
+    "1": "fig4_scalability",
+    "2": "fig1_strategy_comparison",
+    "3": "fig3_load_balance",
+    "4": "fig5_ablation_k",
+    "5": "fig8_optimality_gap",
+    "6": "fig7_robustness",
+    "7": "fig6_communication_proxy"
+  },
+  "width_cm": 12,
+  "font_pt": 11,
+  "png_dpi": 300,
+  "error_bars": "trial population standard deviation",
+  "token_model": "recovered June constants",
+  "abbreviations": {
+    "RR": "Round-Robin",
+    "NA": "Nearest-Agent",
+    "GC": "Greedy-Centralized",
+    "CNP": "Contract-Net",
+    "SSI": "SSI-Auction",
+    "CBBA": "CBBA"
+  }
+}

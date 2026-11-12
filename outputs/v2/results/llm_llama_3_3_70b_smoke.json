@@ -1,0 +1,47 @@
+{
+  "status": "smoke complete",
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "model_key": "llama-3.3-70b",
+  "variants": [
+    "oneshot",
+    "worked"
+  ],
+  "temperature": 0,
+  "include_main": false,
+  "prices_usd_per_million": {
+    "input": 0.71,
+    "output": 0.71
+  },
+  "budget": {
+    "actual_usd": 0.008800560000000002,
+    "reserved_unknown_usd": 0.02581134,
+    "calls": 20,
+    "limit_usd": 3.0,
+    "call_cap": 6000
+  },
+  "key_usage_before_usd": 0.98850751,
+  "key_usage_after_usd": 0.99783472,
+  "new_calls": 20,
+  "valid_calls": 18,
+  "invalid_or_failed_calls": 2,
+  "truncated_calls": 0,
+  "failed_calls": 2,
+  "reasoning_tokens": 0,
+  "calls_without_usage": 2,
+  "trials": [],
+  "logical_call_attempts": 20,
+  "unique_cached_attempts": 20,
+  "unique_failed_attempts": 2,
+  "unique_truncated_attempts": 0,
+  "unique_calls_without_usage": 2,
+  "unique_reported_cost_usd": 0.00880056,
+  "max_tokens": {
+    "bid": 2048,
+    "centralized": 8192,
+    "oneshot": 128
+  },
+  "why_chosen": "Widely deployed open-weight dense chat model that one organisation can host on a small GPU node; no reasoning mode, so billed tokens are comparable.",
+  "limitations": "Same small arithmetic-routing replication as the one-shot run. Worked variant: brief step-by-step working before the final JSON line. Sequential calls within a trial, trials in parallel threads; wall latency sums observed attempts including invalids and one-second retry backoffs, so it excludes queueing between trials. Provider routing on OpenRouter may differ between calls.",
+  "fallback": "worked: last JSON object parsed and strictly validated; a response cut off by max_tokens (finish_reason length) is invalid. one-shot other models: a markdown code fence around the bare JSON object is stripped before the same strict validation. One retry; then exclude invalid bidder; unserved if all invalid; centralized invalid after retry leaves task unserved",
+  "aggregate": {}
+}

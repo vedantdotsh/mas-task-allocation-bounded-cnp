@@ -1,0 +1,44 @@
+{
+  "request": {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "temperature": 0,
+    "max_tokens": 8192,
+    "provider": {
+      "max_price": {
+        "prompt": 0.71,
+        "completion": 0.71
+      },
+      "require_parameters": true
+    },
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route spatial service tasks. An agent appends work to its FIFO queue. It cannot start travelling until both now and its committed_finish have passed. Travel is Euclidean distance from queue_end_position to task location divided by speed. Execution duration is workload divided by its proficiency for required_skill (floor 0.05). Estimate the duration from now until this task completes, including waiting, travel and execution. Use only the supplied state. Show brief step-by-step working: for each agent compute the waiting time, travel time and execution time and their sum, which is its estimated completion duration, one short line per agent; then choose the agent with the smallest duration, breaking ties by smallest id. End your response with the answer as a JSON object on its own final line: {\"agent_id\": integer}."
+      },
+      {
+        "role": "user",
+        "content": "{\"now\":429.632273,\"task\":{\"task_id\":24,\"required_skill\":0,\"workload\":7.588883,\"location\":[53.033009,65.693827],\"arrival\":429.632273,\"deadline\":null},\"agents\":[{\"agent_id\":0,\"skills\":[0.40971,0.252301,0.393536,0.296061,0.8604],\"speed\":0.970668,\"queue_end_position\":[88.848441,29.944711],\"committed_finish\":331.503289,\"queue\":[]},{\"agent_id\":1,\"skills\":[0.297457,1.120039,0.430539,0.209137,0.300485],\"speed\":0.934213,\"queue_end_position\":[4.528404,46.793956],\"committed_finish\":611.657198,\"queue\":[{\"task_id\":18,\"required_skill\":4,\"workload\":4.297153,\"location\":[36.466155,80.99236],\"arrival\":397.282704,\"deadline\":null,\"service_start\":416.001394,\"finish\":430.302107},{\"task_id\":20,\"required_skill\":0,\"workload\":7.837847,\"location\":[83.147304,50.796078],\"arrival\":419.663395,\"deadline\":null,\"service_start\":489.813428,\"finish\":516.162962},{\"task_id\":22,\"required_skill\":4,\"workload\":3.374472,\"location\":[4.528404,46.793956],\"arrival\":428.592946,\"deadline\":null,\"service_start\":600.427121,\"finish\":611.657198}]},{\"agent_id\":2,\"skills\":[0.450496,0.210703,0.965982,0.273822,0.408745],\"speed\":1.000281,\"queue_end_position\":[63.065372,81.539072],\"committed_finish\":382.189734,\"queue\":[]},{\"agent_id\":3,\"skills\":[1.199818,0.236428,1.093953,0.462616,0.411906],\"speed\":1.157763,\"queue_end_position\":[73.959123,11.281647],\"committed_finish\":439.856887,\"queue\":[{\"task_id\":23,\"required_skill\":3,\"workload\":3.102464,\"location\":[73.959123,11.281647],\"arrival\":428.661309,\"deadline\":null,\"service_start\":433.150544,\"finish\":439.856887}]},{\"agent_id\":4,\"skills\":[0.284367,0.220144,0.476532,0.436299,1.16663],\"speed\":1.203935,\"queue_end_position\":[56.103481,12.446761],\"committed_finish\":553.378317,\"queue\":[{\"task_id\":19,\"required_skill\":0,\"workload\":4.432118,\"location\":[97.574448,99.576917],\"arrival\":407.393299,\"deadline\":null,\"service_start\":452.378666,\"finish\":467.964553},{\"task_id\":21,\"required_skill\":2,\"workload\":2.508054,\"location\":[56.103481,12.446761],\"arrival\":425.495556,\"deadline\":null,\"service_start\":548.115174,\"finish\":553.378317}]},{\"agent_id\":5,\"skills\":[0.422168,0.37452,0.829389,0.261089,0.248763],\"speed\":1.166466,\"queue_end_position\":[11.347882,83.243728],\"committed_finish\":415.812404,\"queue\":[]},{\"agent_id\":6,\"skills\":[1.05325,0.386868,0.257333,0.336246,1.00381],\"speed\":0.975254,\"queue_end_position\":[35.748469,19.079554],\"committed_finish\":374.79917,\"queue\":[]},{\"agent_id\":7,\"skills\":[1.03936,0.301065,0.463551,0.231188,0.203472],\"speed\":1.213761,\"queue_end_position\":[3.136049,15.244015],\"committed_finish\":265.390478,\"queue\":[]}]}"
+      }
+    ],
+    "usage": {
+      "include": true
+    }
+  },
+  "value": 2,
+  "attempts": [
+    {
+      "attempt": 1,
+      "prompt_tokens": 1083,
+      "completion_tokens": 934,
+      "cost_usd": 0.00068942,
+      "valid": true,
+      "failed": false,
+      "error": null,
+      "finish_reason": "stop",
+      "truncated": false,
+      "response": "To estimate the duration from now until the task completes for each agent, we need to calculate the waiting time, travel time, and execution time.\n\n0: waiting = max(0, 331.503289 - 429.632273) = 0, travel = ((53.033009 - 88.848441)^2 + (65.693827 - 29.944711)^2)^(1/2) / 0.970668 = 63.271, execution = ceil(7.588883 / 0.40971) = 19, total = 0 + 63.271 + 19 = 82.271\n1: waiting = max(0, 611.657198 - 429.632273) = 182.025, travel = ((53.033009 - 4.528404)^2 + (65.693827 - 46.793956)^2)^(1/2) / 0.934213 = 58.139, execution = ceil(7.588883 / 1.120039) = 7, total = 182.025 + 58.139 + 7 = 247.164\n2: waiting = max(0, 382.189734 - 429.632273) = 0, travel = ((53.033009 - 63.065372)^2 + (65.693827 - 81.539072)^2)^(1/2) / 1.000281 = 20.662, execution = ceil(7.588883 / 0.450496) = 17, total = 0 + 20.662 + 17 = 37.662\n3: waiting = max(0, 439.856887 - 429.632273) = 10.225, travel = ((53.033009 - 73.959123)^2 + (65.693827 - 11.281647)^2)^(1/2) / 1.157763 = 63.271, execution = ceil(7.588883 / 1.199818) = 7, total = 10.225 + 63.271 + 7 = 80.496\n4: waiting = max(0, 553.378317 - 429.632273) = 123.746, travel = ((53.033009 - 56.103481)^2 + (65.693827 - 12.446761)^2)^(1/2) / 1.203935 = 59.419, execution = ceil(7.588883 / 0.284367) = 27, total = 123.746 + 59.419 + 27 = 210.165\n5: waiting = max(0, 415.812404 - 429.632273) = 0, travel = ((53.033009 - 11.347882)^2 + (65.693827 - 83.243728)^2)^(1/2) / 1.166466 = 51.911, execution = ceil(7.588883 / 0.422168) = 18, total = 0 + 51.911 + 18 = 69.911\n6: waiting = max(0, 374.79917 - 429.632273) = 0, travel = ((53.033009 - 35.748469)^2 + (65.693827 - 19.079554)^2)^(1/2) / 0.975254 = 51.911, execution = ceil(7.588883 / 1.05325) = 8, total = 0 + 51.911 + 8 = 59.911\n7: waiting = max(0, 265.390478 - 429.632273) = 0, travel = ((53.033009 - 3.136049)^2 + (65.693827 - 15.244015)^2)^(1/2) / 1.213761 = 50.654, execution = ceil(7.588883 / 1.03936) = 8, total = 0 + 50.654 + 8 = 58.654\n\nThe agent with the smallest duration is agent 2, with a total duration of 37.662.\n\n{\"agent_id\": 2}",
+      "generation_id": "gen-1794450719-YuccxREpLNF6e6dCYJZo",
+      "latency_seconds": 8.90053220000118
+    }
+  ]
+}

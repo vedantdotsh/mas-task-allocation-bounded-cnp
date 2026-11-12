@@ -1,0 +1,444 @@
+{
+  "scope": "E1 load200 seed0 control-plane messages, including registrations. Counterfactual payload sizes, fixed allocation.",
+  "queue_policy": "Exactly q active queue items in each polling response; truncate/cycle observed items (or first observed item if empty), unique synthetic task ids. No full history.",
+  "cfp_policy": "Multiply measured serialized CFP token totals only, from 0.25x to 8x; this is a sensitivity, not a claim of a smaller valid envelope.",
+  "actual_seed0": {
+    "cnp_tokens_per_task": 615.218009478673,
+    "greedy_tokens_per_task": 3214.834123222749,
+    "cached_tokens_per_task": 125.25118483412322
+  },
+  "rows": [
+    {
+      "queue_length": 0,
+      "cfp_multiplier": 0.25,
+      "cnp_tokens_per_task": 360.23578199052133,
+      "greedy_tokens_per_task": 1621.7156398104266,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 77.78674798791286,
+      "cached_saving_percent": 92.27662472017815
+    },
+    {
+      "queue_length": 0,
+      "cfp_multiplier": 0.5,
+      "cnp_tokens_per_task": 445.2298578199052,
+      "greedy_tokens_per_task": 1621.7156398104266,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 72.54575050704011,
+      "cached_saving_percent": 92.27662472017815
+    },
+    {
+      "queue_length": 0,
+      "cfp_multiplier": 1,
+      "cnp_tokens_per_task": 615.218009478673,
+      "greedy_tokens_per_task": 1621.7156398104266,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 62.063755545294605,
+      "cached_saving_percent": 92.27662472017815
+    },
+    {
+      "queue_length": 0,
+      "cfp_multiplier": 2,
+      "cnp_tokens_per_task": 955.1943127962086,
+      "greedy_tokens_per_task": 1621.7156398104266,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 41.0997656218036,
+      "cached_saving_percent": 92.27662472017815
+    },
+    {
+      "queue_length": 0,
+      "cfp_multiplier": 4,
+      "cnp_tokens_per_task": 1635.1469194312797,
+      "greedy_tokens_per_task": 1621.7156398104266,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": -0.828214225178403,
+      "cached_saving_percent": 92.27662472017815
+    },
+    {
+      "queue_length": 0,
+      "cfp_multiplier": 8,
+      "cnp_tokens_per_task": 2995.0521327014217,
+      "greedy_tokens_per_task": 1621.7156398104266,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": -84.68417391914245,
+      "cached_saving_percent": 92.27662472017815
+    },
+    {
+      "queue_length": 1,
+      "cfp_multiplier": 0.25,
+      "cnp_tokens_per_task": 360.23578199052133,
+      "greedy_tokens_per_task": 2305.687203791469,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 84.3762076053443,
+      "cached_saving_percent": 94.5677286742035
+    },
+    {
+      "queue_length": 1,
+      "cfp_multiplier": 0.5,
+      "cnp_tokens_per_task": 445.2298578199052,
+      "greedy_tokens_per_task": 2305.687203791469,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 80.68992805755396,
+      "cached_saving_percent": 94.5677286742035
+    },
+    {
+      "queue_length": 1,
+      "cfp_multiplier": 1,
+      "cnp_tokens_per_task": 615.218009478673,
+      "greedy_tokens_per_task": 2305.687203791469,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 73.31736896197327,
+      "cached_saving_percent": 94.5677286742035
+    },
+    {
+      "queue_length": 1,
+      "cfp_multiplier": 2,
+      "cnp_tokens_per_task": 955.1943127962086,
+      "greedy_tokens_per_task": 2305.687203791469,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 58.57225077081192,
+      "cached_saving_percent": 94.5677286742035
+    },
+    {
+      "queue_length": 1,
+      "cfp_multiplier": 4,
+      "cnp_tokens_per_task": 1635.1469194312797,
+      "greedy_tokens_per_task": 2305.687203791469,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 29.082014388489206,
+      "cached_saving_percent": 94.5677286742035
+    },
+    {
+      "queue_length": 1,
+      "cfp_multiplier": 8,
+      "cnp_tokens_per_task": 2995.0521327014217,
+      "greedy_tokens_per_task": 2305.687203791469,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": -29.898458376156213,
+      "cached_saving_percent": 94.5677286742035
+    },
+    {
+      "queue_length": 2,
+      "cfp_multiplier": 0.25,
+      "cnp_tokens_per_task": 360.23578199052133,
+      "greedy_tokens_per_task": 2977.6635071090045,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 87.90206545734672,
+      "cached_saving_percent": 95.79364207758556
+    },
+    {
+      "queue_length": 2,
+      "cfp_multiplier": 0.5,
+      "cnp_tokens_per_task": 445.2298578199052,
+      "greedy_tokens_per_task": 2977.6635071090045,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 85.04767725577642,
+      "cached_saving_percent": 95.79364207758556
+    },
+    {
+      "queue_length": 2,
+      "cfp_multiplier": 1,
+      "cnp_tokens_per_task": 615.218009478673,
+      "greedy_tokens_per_task": 2977.6635071090045,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 79.33890085263582,
+      "cached_saving_percent": 95.79364207758556
+    },
+    {
+      "queue_length": 2,
+      "cfp_multiplier": 2,
+      "cnp_tokens_per_task": 955.1943127962086,
+      "greedy_tokens_per_task": 2977.6635071090045,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 67.92134804635461,
+      "cached_saving_percent": 95.79364207758556
+    },
+    {
+      "queue_length": 2,
+      "cfp_multiplier": 4,
+      "cnp_tokens_per_task": 1635.1469194312797,
+      "greedy_tokens_per_task": 2977.6635071090045,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 45.0862424337922,
+      "cached_saving_percent": 95.79364207758556
+    },
+    {
+      "queue_length": 2,
+      "cfp_multiplier": 8,
+      "cnp_tokens_per_task": 2995.0521327014217,
+      "greedy_tokens_per_task": 2977.6635071090045,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": -0.583968791332623,
+      "cached_saving_percent": 95.79364207758556
+    },
+    {
+      "queue_length": 5,
+      "cfp_multiplier": 0.25,
+      "cnp_tokens_per_task": 360.23578199052133,
+      "greedy_tokens_per_task": 4993.54028436019,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 92.78596423625973,
+      "cached_saving_percent": 97.49173576858064
+    },
+    {
+      "queue_length": 5,
+      "cfp_multiplier": 0.5,
+      "cnp_tokens_per_task": 445.2298578199052,
+      "greedy_tokens_per_task": 4993.54028436019,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 91.08388372845675,
+      "cached_saving_percent": 97.49173576858064
+    },
+    {
+      "queue_length": 5,
+      "cfp_multiplier": 1,
+      "cnp_tokens_per_task": 615.218009478673,
+      "greedy_tokens_per_task": 4993.54028436019,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 87.67972271285082,
+      "cached_saving_percent": 97.49173576858064
+    },
+    {
+      "queue_length": 5,
+      "cfp_multiplier": 2,
+      "cnp_tokens_per_task": 955.1943127962086,
+      "greedy_tokens_per_task": 4993.54028436019,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 80.87140068163893,
+      "cached_saving_percent": 97.49173576858064
+    },
+    {
+      "queue_length": 5,
+      "cfp_multiplier": 4,
+      "cnp_tokens_per_task": 1635.1469194312797,
+      "greedy_tokens_per_task": 4993.54028436019,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 67.25475661921516,
+      "cached_saving_percent": 97.49173576858064
+    },
+    {
+      "queue_length": 5,
+      "cfp_multiplier": 8,
+      "cnp_tokens_per_task": 2995.0521327014217,
+      "greedy_tokens_per_task": 4993.54028436019,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 40.02146849436761,
+      "cached_saving_percent": 97.49173576858064
+    },
+    {
+      "queue_length": 10,
+      "cfp_multiplier": 0.25,
+      "cnp_tokens_per_task": 360.23578199052133,
+      "greedy_tokens_per_task": 8353.345971563982,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 95.68752709133781,
+      "cached_saving_percent": 98.50058664802707
+    },
+    {
+      "queue_length": 10,
+      "cfp_multiplier": 0.5,
+      "cnp_tokens_per_task": 445.2298578199052,
+      "greedy_tokens_per_task": 8353.345971563982,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 94.67004168945554,
+      "cached_saving_percent": 98.50058664802707
+    },
+    {
+      "queue_length": 10,
+      "cfp_multiplier": 1,
+      "cnp_tokens_per_task": 615.218009478673,
+      "greedy_tokens_per_task": 8353.345971563982,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 92.63507088569101,
+      "cached_saving_percent": 98.50058664802707
+    },
+    {
+      "queue_length": 10,
+      "cfp_multiplier": 2,
+      "cnp_tokens_per_task": 955.1943127962086,
+      "greedy_tokens_per_task": 8353.345971563982,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 88.56512927816193,
+      "cached_saving_percent": 98.50058664802707
+    },
+    {
+      "queue_length": 10,
+      "cfp_multiplier": 4,
+      "cnp_tokens_per_task": 1635.1469194312797,
+      "greedy_tokens_per_task": 8353.345971563982,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 80.42524606310381,
+      "cached_saving_percent": 98.50058664802707
+    },
+    {
+      "queue_length": 10,
+      "cfp_multiplier": 8,
+      "cnp_tokens_per_task": 2995.0521327014217,
+      "greedy_tokens_per_task": 8353.345971563982,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 64.14547963298754,
+      "cached_saving_percent": 98.50058664802707
+    },
+    {
+      "queue_length": 20,
+      "cfp_multiplier": 0.25,
+      "cnp_tokens_per_task": 360.23578199052133,
+      "greedy_tokens_per_task": 15072.966824644549,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 97.61005390523695,
+      "cached_saving_percent": 99.16903429635806
+    },
+    {
+      "queue_length": 20,
+      "cfp_multiplier": 0.5,
+      "cnp_tokens_per_task": 445.2298578199052,
+      "greedy_tokens_per_task": 15072.966824644549,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 97.046169722261,
+      "cached_saving_percent": 99.16903429635806
+    },
+    {
+      "queue_length": 20,
+      "cfp_multiplier": 1,
+      "cnp_tokens_per_task": 615.218009478673,
+      "greedy_tokens_per_task": 15072.966824644549,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 95.91840135630909,
+      "cached_saving_percent": 99.16903429635806
+    },
+    {
+      "queue_length": 20,
+      "cfp_multiplier": 2,
+      "cnp_tokens_per_task": 955.1943127962086,
+      "greedy_tokens_per_task": 15072.966824644549,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 93.66286462440526,
+      "cached_saving_percent": 99.16903429635806
+    },
+    {
+      "queue_length": 20,
+      "cfp_multiplier": 4,
+      "cnp_tokens_per_task": 1635.1469194312797,
+      "greedy_tokens_per_task": 15072.966824644549,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 89.15179116059761,
+      "cached_saving_percent": 99.16903429635806
+    },
+    {
+      "queue_length": 20,
+      "cfp_multiplier": 8,
+      "cnp_tokens_per_task": 2995.0521327014217,
+      "greedy_tokens_per_task": 15072.966824644549,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 80.12964423298232,
+      "cached_saving_percent": 99.16903429635806
+    },
+    {
+      "queue_length": 50,
+      "cfp_multiplier": 0.25,
+      "cnp_tokens_per_task": 360.23578199052133,
+      "greedy_tokens_per_task": 35231.80568720379,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 98.97752676888383,
+      "cached_saving_percent": 99.64449399515274
+    },
+    {
+      "queue_length": 50,
+      "cfp_multiplier": 0.5,
+      "cnp_tokens_per_task": 445.2298578199052,
+      "greedy_tokens_per_task": 35231.80568720379,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 98.73628430579812,
+      "cached_saving_percent": 99.64449399515274
+    },
+    {
+      "queue_length": 50,
+      "cfp_multiplier": 1,
+      "cnp_tokens_per_task": 615.218009478673,
+      "greedy_tokens_per_task": 35231.80568720379,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 98.25379937962668,
+      "cached_saving_percent": 99.64449399515274
+    },
+    {
+      "queue_length": 50,
+      "cfp_multiplier": 2,
+      "cnp_tokens_per_task": 955.1943127962086,
+      "greedy_tokens_per_task": 35231.80568720379,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 97.28882952728382,
+      "cached_saving_percent": 99.64449399515274
+    },
+    {
+      "queue_length": 50,
+      "cfp_multiplier": 4,
+      "cnp_tokens_per_task": 1635.1469194312797,
+      "greedy_tokens_per_task": 35231.80568720379,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 95.35888982259809,
+      "cached_saving_percent": 99.64449399515274
+    },
+    {
+      "queue_length": 50,
+      "cfp_multiplier": 8,
+      "cnp_tokens_per_task": 2995.0521327014217,
+      "greedy_tokens_per_task": 35231.80568720379,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 91.49901041322663,
+      "cached_saving_percent": 99.64449399515274
+    },
+    {
+      "queue_length": 100,
+      "cfp_multiplier": 0.25,
+      "cnp_tokens_per_task": 360.23578199052133,
+      "greedy_tokens_per_task": 68829.86255924171,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 99.47662864838577,
+      "cached_saving_percent": 99.81802784405342
+    },
+    {
+      "queue_length": 100,
+      "cfp_multiplier": 0.5,
+      "cnp_tokens_per_task": 445.2298578199052,
+      "greedy_tokens_per_task": 68829.86255924171,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 99.35314434568761,
+      "cached_saving_percent": 99.81802784405342
+    },
+    {
+      "queue_length": 100,
+      "cfp_multiplier": 1,
+      "cnp_tokens_per_task": 615.218009478673,
+      "greedy_tokens_per_task": 68829.86255924171,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 99.10617574029128,
+      "cached_saving_percent": 99.81802784405342
+    },
+    {
+      "queue_length": 100,
+      "cfp_multiplier": 2,
+      "cnp_tokens_per_task": 955.1943127962086,
+      "greedy_tokens_per_task": 68829.86255924171,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 98.61223852949863,
+      "cached_saving_percent": 99.81802784405342
+    },
+    {
+      "queue_length": 100,
+      "cfp_multiplier": 4,
+      "cnp_tokens_per_task": 1635.1469194312797,
+      "greedy_tokens_per_task": 68829.86255924171,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 97.62436410791332,
+      "cached_saving_percent": 99.81802784405342
+    },
+    {
+      "queue_length": 100,
+      "cfp_multiplier": 8,
+      "cnp_tokens_per_task": 2995.0521327014217,
+      "greedy_tokens_per_task": 68829.86255924171,
+      "cached_tokens_per_task": 125.25118483412322,
+      "cnp_saving_percent": 95.6486152647427,
+      "cached_saving_percent": 99.81802784405342
+    }
+  ]
+}

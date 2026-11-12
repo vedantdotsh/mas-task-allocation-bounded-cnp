@@ -1,0 +1,58 @@
+[
+  {
+    "model": "gpt-4o-mini",
+    "invocation": "worked smoke (20 calls)",
+    "key_usage_before_usd": 0.10217535,
+    "key_usage_after_usd": 0.12925365,
+    "new_calls": 20
+  },
+  {
+    "model": "gpt-4o-mini",
+    "invocation": "worked sweep+main",
+    "key_usage_before_usd": 0.12976156,
+    "key_usage_after_usd": 0.98387101,
+    "new_calls": 1277
+  },
+  {
+    "model": "llama-3.3-70b",
+    "invocation": "smoke (20 calls)",
+    "key_usage_before_usd": 0.98850751,
+    "key_usage_after_usd": 0.99783472,
+    "new_calls": 20
+  },
+  {
+    "model": "llama-3.3-70b",
+    "invocation": "sweep",
+    "key_usage_before_usd": 0.99783472,
+    "key_usage_after_usd": 1.62948732,
+    "new_calls": 1530
+  },
+  {
+    "model": "gemini-3.1-flash-lite",
+    "invocation": "smoke (20 calls)",
+    "key_usage_before_usd": 1.63120036,
+    "key_usage_after_usd": 1.645955,
+    "new_calls": 20
+  },
+  {
+    "model": "gemini-3.1-flash-lite",
+    "invocation": "sweep",
+    "key_usage_before_usd": 1.645955,
+    "key_usage_after_usd": 2.719346,
+    "new_calls": 1527
+  },
+  {
+    "model": "llama-3.3-70b",
+    "invocation": "main (8 agents, 30 tasks)",
+    "key_usage_before_usd": 2.730259,
+    "key_usage_after_usd": 2.96791883,
+    "new_calls": 1014
+  },
+  {
+    "model": "gemini-3.1-flash-lite",
+    "invocation": "main (8 agents, 30 tasks)",
+    "key_usage_before_usd": 2.96869385,
+    "key_usage_after_usd": 3.56864751,
+    "new_calls": 1014
+  }
+]

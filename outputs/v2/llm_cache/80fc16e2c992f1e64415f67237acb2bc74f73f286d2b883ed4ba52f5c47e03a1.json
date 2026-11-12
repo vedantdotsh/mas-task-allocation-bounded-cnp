@@ -1,0 +1,45 @@
+{
+  "request": {
+    "model": "google/gemini-3.1-flash-lite",
+    "temperature": 0,
+    "max_tokens": 128,
+    "response_format": {
+      "type": "json_object"
+    },
+    "provider": {
+      "max_price": {
+        "prompt": 0.25,
+        "completion": 1.5
+      },
+      "require_parameters": true
+    },
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route spatial service tasks. An agent appends work to its FIFO queue. It cannot start travelling until both now and its committed_finish have passed. Travel is Euclidean distance from queue_end_position to task location divided by speed. Execution duration is workload divided by its proficiency for required_skill (floor 0.05). Estimate the duration from now until this task completes, including waiting, travel and execution. Use only the supplied state. Return only the requested JSON object, without explanation. Return {\"bid\": nonnegative number} for this agent."
+      },
+      {
+        "role": "user",
+        "content": "{\"now\":454.111411,\"task\":{\"task_id\":18,\"required_skill\":2,\"workload\":7.712357,\"location\":[23.626333,60.181128],\"arrival\":454.111411,\"deadline\":null},\"agent\":{\"agent_id\":6,\"skills\":[0.429629,1.072312,0.262209,0.368612,0.416405],\"speed\":1.186823,\"queue_end_position\":[35.644467,78.10234],\"committed_finish\":351.426542,\"queue\":[]}}"
+      }
+    ],
+    "usage": {
+      "include": true
+    }
+  },
+  "value": 30.555565,
+  "attempts": [
+    {
+      "attempt": 1,
+      "prompt_tokens": 304,
+      "completion_tokens": 18,
+      "cost_usd": 0.000103,
+      "valid": true,
+      "failed": false,
+      "error": null,
+      "response": "{\n  \"bid\": 30.555565\n}",
+      "generation_id": "gen-1794450233-PVxAKbatV7Gamii2qfII",
+      "latency_seconds": 0.6222512000240386
+    }
+  ]
+}

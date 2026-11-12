@@ -1,0 +1,44 @@
+{
+  "request": {
+    "model": "google/gemini-3.1-flash-lite",
+    "temperature": 0,
+    "max_tokens": 8192,
+    "provider": {
+      "max_price": {
+        "prompt": 0.25,
+        "completion": 1.5
+      },
+      "require_parameters": true
+    },
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route spatial service tasks. An agent appends work to its FIFO queue. It cannot start travelling until both now and its committed_finish have passed. Travel is Euclidean distance from queue_end_position to task location divided by speed. Execution duration is workload divided by its proficiency for required_skill (floor 0.05). Estimate the duration from now until this task completes, including waiting, travel and execution. Use only the supplied state. Show brief step-by-step working: for each agent compute the waiting time, travel time and execution time and their sum, which is its estimated completion duration, one short line per agent; then choose the agent with the smallest duration, breaking ties by smallest id. End your response with the answer as a JSON object on its own final line: {\"agent_id\": integer}."
+      },
+      {
+        "role": "user",
+        "content": "{\"now\":51.968912,\"task\":{\"task_id\":3,\"required_skill\":4,\"workload\":3.615119,\"location\":[66.467581,30.910412],\"arrival\":51.968912,\"deadline\":null},\"agents\":[{\"agent_id\":0,\"skills\":[0.482881,0.294901,0.907479,0.237681,1.127567],\"speed\":0.844987,\"queue_end_position\":[67.924736,85.467574],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":1,\"skills\":[0.977423,0.476387,0.234993,0.352625,0.400512],\"speed\":1.122343,\"queue_end_position\":[46.646793,20.016795],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":2,\"skills\":[0.34246,1.05784,0.266593,0.461631,1.117331],\"speed\":1.010526,\"queue_end_position\":[39.215546,41.221251],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":3,\"skills\":[1.168298,0.30036,0.210344,0.380086,0.36791],\"speed\":0.842349,\"queue_end_position\":[75.980946,94.183047],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":4,\"skills\":[0.444874,0.262079,0.955932,0.969809,0.481298],\"speed\":1.11119,\"queue_end_position\":[72.988913,89.234743],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":5,\"skills\":[0.293168,0.395755,1.17867,0.445322,0.20758],\"speed\":0.867446,\"queue_end_position\":[42.624041,98.328986],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":6,\"skills\":[0.88616,0.883218,0.404987,0.425237,0.372976],\"speed\":1.250962,\"queue_end_position\":[51.453317,34.673995],\"committed_finish\":43.153486,\"queue\":[]},{\"agent_id\":7,\"skills\":[0.489755,0.312461,0.427001,1.067537,0.980443],\"speed\":1.256146,\"queue_end_position\":[12.710319,84.078618],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":8,\"skills\":[0.365805,0.490358,0.271432,0.953943,0.317376],\"speed\":1.288112,\"queue_end_position\":[25.929739,23.985619],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":9,\"skills\":[0.402089,0.207016,0.221907,0.485384,1.082349],\"speed\":1.028116,\"queue_end_position\":[76.041599,28.835551],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":10,\"skills\":[0.924211,0.211776,0.416083,0.386889,0.238531],\"speed\":1.251285,\"queue_end_position\":[18.634956,72.123227],\"committed_finish\":34.361134,\"queue\":[]},{\"agent_id\":11,\"skills\":[0.363492,0.32178,0.292365,0.253433,0.939943],\"speed\":1.271698,\"queue_end_position\":[26.467426,45.277288],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":12,\"skills\":[0.339378,0.267799,0.349977,0.905715,0.298636],\"speed\":0.901737,\"queue_end_position\":[36.87757,78.846186],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":13,\"skills\":[0.363231,0.423974,0.475144,1.004067,0.303149],\"speed\":1.090079,\"queue_end_position\":[71.342114,12.015873],\"committed_finish\":78.537432,\"queue\":[{\"task_id\":2,\"required_skill\":0,\"workload\":9.69989,\"location\":[71.342114,12.015873],\"arrival\":38.732053,\"deadline\":null,\"service_start\":51.832965,\"finish\":78.537432}]},{\"agent_id\":14,\"skills\":[0.210607,0.434756,1.063089,0.820735,0.25515],\"speed\":1.048675,\"queue_end_position\":[51.966634,11.160179],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":15,\"skills\":[0.241845,1.103849,0.325472,0.382279,0.314935],\"speed\":1.082483,\"queue_end_position\":[36.93227,21.549722],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":16,\"skills\":[1.013191,0.46944,1.067198,0.450578,0.335415],\"speed\":1.047236,\"queue_end_position\":[85.534282,85.106511],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":17,\"skills\":[0.225833,0.976542,0.226489,1.127229,0.254808],\"speed\":0.826607,\"queue_end_position\":[93.372169,20.779889],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":18,\"skills\":[0.923298,0.369022,0.400416,0.486441,0.401697],\"speed\":1.036517,\"queue_end_position\":[37.933321,54.273128],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":19,\"skills\":[0.279435,0.211827,0.35455,1.027491,0.435675],\"speed\":1.202372,\"queue_end_position\":[54.630734,60.052964],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":20,\"skills\":[0.206944,1.117584,0.234744,0.495642,0.425972],\"speed\":1.000712,\"queue_end_position\":[2.64026,39.12024],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":21,\"skills\":[0.382769,1.149643,1.126991,0.259909,0.423608],\"speed\":0.895096,\"queue_end_position\":[33.792187,2.771345],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":22,\"skills\":[0.844888,0.418846,0.463022,0.481413,0.445711],\"speed\":1.00909,\"queue_end_position\":[10.865475,86.723071],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":23,\"skills\":[0.841637,0.380758,0.338084,0.827267,0.366229],\"speed\":0.858155,\"queue_end_position\":[40.046882,33.332651],\"committed_finish\":0.0,\"queue\":[]}]}"
+      }
+    ],
+    "usage": {
+      "include": true
+    }
+  },
+  "value": 9,
+  "attempts": [
+    {
+      "attempt": 1,
+      "prompt_tokens": 2794,
+      "completion_tokens": 1443,
+      "cost_usd": 0.002863,
+      "valid": true,
+      "failed": false,
+      "error": null,
+      "finish_reason": "stop",
+      "truncated": false,
+      "response": "Agent 0: Wait 0, Travel 65.35/0.845=77.34, Exec 3.615/1.128=3.21, Total 80.55\nAgent 1: Wait 0, Travel 31.55/1.122=28.11, Exec 3.615/0.401=9.02, Total 37.13\nAgent 2: Wait 0, Travel 30.56/1.011=30.24, Exec 3.615/1.117=3.24, Total 33.48\nAgent 3: Wait 0, Travel 64.55/0.842=76.63, Exec 3.615/0.368=9.82, Total 86.45\nAgent 4: Wait 0, Travel 58.35/1.111=52.52, Exec 3.615/0.481=7.52, Total 60.04\nAgent 5: Wait 0, Travel 53.55/0.867=61.77, Exec 3.615/0.208=17.40, Total 79.17\nAgent 6: Wait 43.15-51.97=0, Travel 15.55/1.251=12.43, Exec 3.615/0.373=9.69, Total 51.97+12.43+9.69=74.09\nAgent 7: Wait 0, Travel 65.35/1.256=52.03, Exec 3.615/0.980=3.69, Total 55.72\nAgent 8: Wait 0, Travel 45.55/1.288=35.36, Exec 3.615/0.317=11.40, Total 46.76\nAgent 9: Wait 0, Travel 2.15/1.028=2.09, Exec 3.615/1.082=3.34, Total 5.43\nAgent 10: Wait 34.36-51.97=0, Travel 51.55/1.251=41.20, Exec 3.615/0.239=15.13, Total 51.97+41.20+15.13=108.30\nAgent 11: Wait 0, Travel 43.55/1.272=34.24, Exec 3.615/0.940=3.85, Total 38.09\nAgent 12: Wait 0, Travel 48.55/0.902=53.83, Exec 3.615/0.299=12.09, Total 65.92\nAgent 13: Wait 78.54-51.97=26.57, Travel 21.55/1.090=19.77, Exec 3.615/0.303=11.93, Total 78.54+19.77+11.93=110.24\nAgent 14: Wait 0, Travel 25.55/1.049=24.36, Exec 3.615/0.255=14.18, Total 38.54\nAgent 15: Wait 0, Travel 35.55/1.082=32.86, Exec 3.615/0.315=11.48, Total 44.34\nAgent 16: Wait 0, Travel 55.55/1.047=53.06, Exec 3.615/0.335=10.79, Total 63.85\nAgent 17: Wait 0, Travel 35.55/0.827=43.00, Exec 3.615/0.255=14.18, Total 57.18\nAgent 18: Wait 0, Travel 35.55/1.037=34.28, Exec 3.615/0.402=8.99, Total 43.27\nAgent 19: Wait 0, Travel 35.55/1.202=29.58, Exec 3.615/0.436=8.29, Total 37.87\nAgent 20: Wait 0, Travel 65.55/1.001=65.50, Exec 3.615/0.426=8.49, Total 73.99\nAgent 21: Wait 0, Travel 55.55/0.895=62.07, Exec 3.615/0.424=8.53, Total 70.60\nAgent 22: Wait 0, Travel 65.55/1.009=64.97, Exec 3.615/0.446=8.11, Total 73.08\nAgent 23: Wait 0, Travel 35.55/0.858=41.43, Exec 3.615/0.366=9.88, Total 51.31\n\n{\"agent_id\": 9}",
+      "generation_id": "gen-1794450175-kZeLp3BEEw9qy1MbQgQL",
+      "latency_seconds": 3.796015999978408
+    }
+  ]
+}

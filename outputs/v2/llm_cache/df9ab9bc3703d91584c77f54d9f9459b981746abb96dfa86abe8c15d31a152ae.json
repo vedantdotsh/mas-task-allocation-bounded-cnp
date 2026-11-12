@@ -1,0 +1,45 @@
+{
+  "request": {
+    "model": "google/gemini-3.1-flash-lite",
+    "temperature": 0,
+    "max_tokens": 128,
+    "response_format": {
+      "type": "json_object"
+    },
+    "provider": {
+      "max_price": {
+        "prompt": 0.25,
+        "completion": 1.5
+      },
+      "require_parameters": true
+    },
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route spatial service tasks. An agent appends work to its FIFO queue. It cannot start travelling until both now and its committed_finish have passed. Travel is Euclidean distance from queue_end_position to task location divided by speed. Execution duration is workload divided by its proficiency for required_skill (floor 0.05). Estimate the duration from now until this task completes, including waiting, travel and execution. Use only the supplied state. Return only the requested JSON object, without explanation. Choose the agent with the smallest duration; break ties by smallest id. Return {\"agent_id\": integer}."
+      },
+      {
+        "role": "user",
+        "content": "{\"now\":490.468355,\"task\":{\"task_id\":11,\"required_skill\":2,\"workload\":6.068123,\"location\":[8.493764,4.208529],\"arrival\":490.468355,\"deadline\":null},\"agents\":[{\"agent_id\":0,\"skills\":[0.482881,0.294901,0.907479,0.237681,1.127567],\"speed\":0.844987,\"queue_end_position\":[89.93699,61.379113],\"committed_finish\":458.306245,\"queue\":[]},{\"agent_id\":1,\"skills\":[0.977423,0.476387,0.234993,0.352625,0.400512],\"speed\":1.122343,\"queue_end_position\":[71.342114,12.015873],\"committed_finish\":71.785354,\"queue\":[]},{\"agent_id\":2,\"skills\":[0.34246,1.05784,0.266593,0.461631,1.117331],\"speed\":1.010526,\"queue_end_position\":[86.803454,32.063123],\"committed_finish\":324.576943,\"queue\":[]},{\"agent_id\":3,\"skills\":[1.168298,0.30036,0.210344,0.380086,0.36791],\"speed\":0.842349,\"queue_end_position\":[67.46736,74.961778],\"committed_finish\":239.8853,\"queue\":[]},{\"agent_id\":4,\"skills\":[0.444874,0.262079,0.955932,0.969809,0.481298],\"speed\":1.11119,\"queue_end_position\":[25.491929,80.472315],\"committed_finish\":180.518615,\"queue\":[]},{\"agent_id\":5,\"skills\":[0.293168,0.395755,1.17867,0.445322,0.20758],\"speed\":0.867446,\"queue_end_position\":[13.291379,12.214712],\"committed_finish\":450.164057,\"queue\":[]},{\"agent_id\":6,\"skills\":[0.88616,0.883218,0.404987,0.425237,0.372976],\"speed\":1.250962,\"queue_end_position\":[51.453317,34.673995],\"committed_finish\":43.153486,\"queue\":[]},{\"agent_id\":7,\"skills\":[0.489755,0.312461,0.427001,1.067537,0.980443],\"speed\":1.256146,\"queue_end_position\":[15.631439,81.331952],\"committed_finish\":457.062233,\"queue\":[]}]}"
+      }
+    ],
+    "usage": {
+      "include": true
+    }
+  },
+  "value": 5,
+  "attempts": [
+    {
+      "attempt": 1,
+      "prompt_tokens": 1061,
+      "completion_tokens": 8,
+      "cost_usd": 0.00027725,
+      "valid": true,
+      "failed": false,
+      "error": null,
+      "response": "{\"agent_id\": 5}",
+      "generation_id": "gen-1794450198-18R3Qy6w271k4iJ2vXFn",
+      "latency_seconds": 0.46289029996842146
+    }
+  ]
+}

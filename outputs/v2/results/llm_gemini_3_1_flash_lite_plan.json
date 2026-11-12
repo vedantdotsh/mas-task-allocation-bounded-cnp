@@ -1,0 +1,161 @@
+{
+  "model": "google/gemini-3.1-flash-lite",
+  "temperature": 0,
+  "variants": [
+    "oneshot",
+    "worked"
+  ],
+  "include_main": true,
+  "design": [
+    [
+      "main",
+      8,
+      30,
+      0
+    ],
+    [
+      "main",
+      8,
+      30,
+      1
+    ],
+    [
+      "main",
+      8,
+      30,
+      2
+    ],
+    [
+      "main",
+      8,
+      30,
+      3
+    ],
+    [
+      "main",
+      8,
+      30,
+      4
+    ],
+    [
+      "sweep",
+      8,
+      20,
+      0
+    ],
+    [
+      "sweep",
+      8,
+      20,
+      1
+    ],
+    [
+      "sweep",
+      8,
+      20,
+      2
+    ],
+    [
+      "sweep",
+      8,
+      20,
+      3
+    ],
+    [
+      "sweep",
+      8,
+      20,
+      4
+    ],
+    [
+      "sweep",
+      16,
+      20,
+      0
+    ],
+    [
+      "sweep",
+      16,
+      20,
+      1
+    ],
+    [
+      "sweep",
+      16,
+      20,
+      2
+    ],
+    [
+      "sweep",
+      16,
+      20,
+      3
+    ],
+    [
+      "sweep",
+      16,
+      20,
+      4
+    ],
+    [
+      "sweep",
+      24,
+      20,
+      0
+    ],
+    [
+      "sweep",
+      24,
+      20,
+      1
+    ],
+    [
+      "sweep",
+      24,
+      20,
+      2
+    ],
+    [
+      "sweep",
+      24,
+      20,
+      3
+    ],
+    [
+      "sweep",
+      24,
+      20,
+      4
+    ]
+  ],
+  "managed_scenario_tasks": 371,
+  "planned_calls": 2968,
+  "planned_prompt_tokens": 1733096.3999999808,
+  "tokenizer_factor": 1.2,
+  "assumed_completion_tokens": 1198506.2000000037,
+  "completion_assumptions": {
+    "bid_completion": 651.5999999999999,
+    "central_completion_per_agent": 88.73750000000001,
+    "central_completion_base": 0,
+    "oneshot_bid": 29.400000000000002,
+    "oneshot_central": 12.600000000000001,
+    "source": "smoke-test means x1.5 safety factor, defaults where unmeasured"
+  },
+  "max_tokens": {
+    "bid": 2048,
+    "centralized": 8192,
+    "oneshot": 128
+  },
+  "estimated_usd": 2.2310334000000007,
+  "estimated_usd_with_one_retry_every_call": 4.462066800000001,
+  "ceiling_usd_every_call_hits_max_tokens": 8.696186099999995,
+  "estimate_limit_usd": 3.0,
+  "additional_spend_limit_usd": 3.5,
+  "total_project_limit_usd": 8.0,
+  "prices_usd_per_million": {
+    "input": 0.25,
+    "output": 1.5,
+    "catalogue_date": "2026-11-12"
+  },
+  "note": "Prompt tokens use o200k_base counts times the tokenizer factor; live queues can differ. Hard guard: separate journal, reservation = UTF-8 byte upper bound plus max_tokens, per-model USD ceiling including smoke test, and the key-level total."
+}

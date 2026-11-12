@@ -1,0 +1,44 @@
+{
+  "request": {
+    "model": "openai/gpt-4o-mini",
+    "temperature": 0,
+    "max_tokens": 128,
+    "response_format": {
+      "type": "json_object"
+    },
+    "provider": {
+      "max_price": {
+        "prompt": 0.15,
+        "completion": 0.6
+      },
+      "require_parameters": true
+    },
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route spatial service tasks. An agent appends work to its FIFO queue. It cannot start travelling until both now and its committed_finish have passed. Travel is Euclidean distance from queue_end_position to task location divided by speed. Execution duration is workload divided by its proficiency for required_skill (floor 0.05). Estimate the duration from now until this task completes, including waiting, travel and execution. Use only the supplied state. Return only the requested JSON object, without explanation. Return {\"bid\": nonnegative number} for this agent."
+      },
+      {
+        "role": "user",
+        "content": "{\"now\":106.146396,\"task\":{\"task_id\":5,\"required_skill\":2,\"workload\":2.516276,\"location\":[60.752702,92.666141],\"arrival\":106.146396,\"deadline\":null},\"agent\":{\"agent_id\":23,\"skills\":[1.100314,0.918887,0.488368,0.402732,0.225445],\"speed\":1.092785,\"queue_end_position\":[52.014408,83.968888],\"committed_finish\":0.0,\"queue\":[]}}"
+      }
+    ],
+    "usage": {
+      "include": true
+    }
+  },
+  "value": 5.052198,
+  "attempts": [
+    {
+      "attempt": 1,
+      "prompt_tokens": 237,
+      "completion_tokens": 8,
+      "cost_usd": 4.035e-05,
+      "valid": true,
+      "failed": false,
+      "error": null,
+      "response": "{\"bid\":5.052198}",
+      "latency_seconds": 0.660785699961707
+    }
+  ]
+}

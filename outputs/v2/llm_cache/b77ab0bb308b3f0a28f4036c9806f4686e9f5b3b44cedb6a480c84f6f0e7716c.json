@@ -1,0 +1,45 @@
+{
+  "request": {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "temperature": 0,
+    "max_tokens": 128,
+    "response_format": {
+      "type": "json_object"
+    },
+    "provider": {
+      "max_price": {
+        "prompt": 0.71,
+        "completion": 0.71
+      },
+      "require_parameters": true
+    },
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route spatial service tasks. An agent appends work to its FIFO queue. It cannot start travelling until both now and its committed_finish have passed. Travel is Euclidean distance from queue_end_position to task location divided by speed. Execution duration is workload divided by its proficiency for required_skill (floor 0.05). Estimate the duration from now until this task completes, including waiting, travel and execution. Use only the supplied state. Return only the requested JSON object, without explanation. Return {\"bid\": nonnegative number} for this agent."
+      },
+      {
+        "role": "user",
+        "content": "{\"now\":144.828558,\"task\":{\"task_id\":9,\"required_skill\":4,\"workload\":5.702297,\"location\":[29.041159,11.665302],\"arrival\":144.828558,\"deadline\":null},\"agent\":{\"agent_id\":13,\"skills\":[0.47181,0.208389,0.224364,0.815502,0.969492],\"speed\":1.022024,\"queue_end_position\":[16.001329,3.450728],\"committed_finish\":142.961136,\"queue\":[]}}"
+      }
+    ],
+    "usage": {
+      "include": true
+    }
+  },
+  "value": 10.265,
+  "attempts": [
+    {
+      "attempt": 1,
+      "prompt_tokens": 262,
+      "completion_tokens": 9,
+      "cost_usd": 4.982e-05,
+      "valid": true,
+      "failed": false,
+      "error": null,
+      "response": "{\"bid\": 10.265}",
+      "generation_id": "gen-1794449512-h43WlVW2DvqgbIsFEj4C",
+      "latency_seconds": 1.1233923999825493
+    }
+  ]
+}

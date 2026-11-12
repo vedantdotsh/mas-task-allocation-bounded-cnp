@@ -1,0 +1,627 @@
+{
+  "metadata": {
+    "experiment": 1,
+    "trials_per_point": 30,
+    "seed_scheme": "default_rng(seed), seed=0..trials-1; agents then tasks; CNP +100000, rebid +200000",
+    "std_ddof": 0,
+    "numpy": "2.2.6",
+    "python": "3.13.0",
+    "token_costs": {
+      "centralized_full_query": 120,
+      "centralized_full_response": 80,
+      "position_query": 32,
+      "position_response": 24,
+      "cfp": 32,
+      "bid": 48,
+      "award": 24,
+      "consensus": 60
+    },
+    "paper_token_costs": {
+      "centralized_full_query": 400,
+      "centralized_full_response": 50,
+      "position_query": 400,
+      "position_response": 50,
+      "cfp": 150,
+      "bid": 50,
+      "award": 20,
+      "consensus": 60
+    },
+    "scenario": {
+      "n_agents": 12,
+      "expected_tasks": 200,
+      "horizon": 500,
+      "side": 100,
+      "n_skills": 5,
+      "arrival_mode": "poisson"
+    },
+    "batch_window": 25,
+    "source": "June recovered base; reconstructed SSI/CBBA/exact solver"
+  },
+  "aggregate": {
+    "Round-Robin": {
+      "makespan": {
+        "mean": 1357.56439276812,
+        "std": 123.81857850179915
+      },
+      "mean_wait": {
+        "mean": 314.62169752814896,
+        "std": 48.75907338502711
+      },
+      "avg_wait": {
+        "mean": 314.62169752814896,
+        "std": 48.75907338502711
+      },
+      "p95_wait": {
+        "mean": 667.0381272673428,
+        "std": 93.26401345847691
+      },
+      "fairness": {
+        "mean": 0.9785046259229964,
+        "std": 0.008825475878039835
+      },
+      "messages": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "throughput": {
+        "mean": 0.1454848366720331,
+        "std": 0.008560334707661592
+      },
+      "proxy_tokens": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "paper_tokens": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "estimated_token_cost": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "estimated_latency": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "context_pressure": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "tasks": {
+        "mean": 196.9,
+        "std": 14.572462615037537
+      },
+      "mean_queue_wait": {
+        "mean": 264.442733997864,
+        "std": 47.4521863632364
+      },
+      "p95_queue_wait": {
+        "mean": 610.2457540550662,
+        "std": 93.99819906222541
+      },
+      "mean_response": {
+        "mean": 329.07791098849833,
+        "std": 48.892468732332794
+      },
+      "last_arrival": {
+        "mean": 497.4138042008971,
+        "std": 1.824104192971658
+      },
+      "drain_time": {
+        "mean": 860.1505885672232,
+        "std": 123.46906892041885
+      },
+      "failed_bid_rounds": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "rebid_rounds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "Nearest-Agent": {
+      "makespan": {
+        "mean": 807.279592626325,
+        "std": 95.74907027429191
+      },
+      "mean_wait": {
+        "mean": 81.73970457008036,
+        "std": 20.861303714323263
+      },
+      "avg_wait": {
+        "mean": 81.73970457008036,
+        "std": 20.861303714323263
+      },
+      "p95_wait": {
+        "mean": 247.19503060855752,
+        "std": 71.62385389843381
+      },
+      "fairness": {
+        "mean": 0.8738661631786646,
+        "std": 0.04311635312930585
+      },
+      "messages": {
+        "mean": 4725.6,
+        "std": 349.7391027609009
+      },
+      "throughput": {
+        "mean": 0.24676388652368136,
+        "std": 0.03064954239424099
+      },
+      "proxy_tokens": {
+        "mean": 132316.8,
+        "std": 9792.694877305226
+      },
+      "paper_tokens": {
+        "mean": 1063260.0,
+        "std": 78691.29812120271
+      },
+      "estimated_token_cost": {
+        "mean": 132316.8,
+        "std": 9792.694877305226
+      },
+      "estimated_latency": {
+        "mean": 94.512,
+        "std": 6.99478205521802
+      },
+      "context_pressure": {
+        "mean": 16.151953125,
+        "std": 1.1953973238897981
+      },
+      "tasks": {
+        "mean": 196.9,
+        "std": 14.572462615037537
+      },
+      "mean_queue_wait": {
+        "mean": 68.5068644278158,
+        "std": 20.585343965696854
+      },
+      "p95_queue_wait": {
+        "mean": 233.18803008488925,
+        "std": 73.82038027046872
+      },
+      "mean_response": {
+        "mean": 96.09340816083721,
+        "std": 21.241056682090626
+      },
+      "last_arrival": {
+        "mean": 497.4138042008971,
+        "std": 1.824104192971658
+      },
+      "drain_time": {
+        "mean": 309.865788425428,
+        "std": 95.4350719686454
+      },
+      "failed_bid_rounds": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "rebid_rounds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "Greedy-Centralized": {
+      "makespan": {
+        "mean": 622.3705576599517,
+        "std": 43.85993946064311
+      },
+      "mean_wait": {
+        "mean": 62.06061052549387,
+        "std": 20.4126847904161
+      },
+      "avg_wait": {
+        "mean": 62.06061052549387,
+        "std": 20.4126847904161
+      },
+      "p95_wait": {
+        "mean": 109.99163226967667,
+        "std": 35.84856583590085
+      },
+      "fairness": {
+        "mean": 0.996520286695408,
+        "std": 0.0025897358670926383
+      },
+      "messages": {
+        "mean": 4725.6,
+        "std": 349.7391027609009
+      },
+      "throughput": {
+        "mean": 0.31657746908135487,
+        "std": 0.013688649755785744
+      },
+      "proxy_tokens": {
+        "mean": 472560.0,
+        "std": 34973.91027609009
+      },
+      "paper_tokens": {
+        "mean": 1063260.0,
+        "std": 78691.29812120271
+      },
+      "estimated_token_cost": {
+        "mean": 472560.0,
+        "std": 34973.91027609009
+      },
+      "estimated_latency": {
+        "mean": 94.512,
+        "std": 6.99478205521802
+      },
+      "context_pressure": {
+        "mean": 57.685546875,
+        "std": 4.269276156749279
+      },
+      "tasks": {
+        "mean": 196.9,
+        "std": 14.572462615037537
+      },
+      "mean_queue_wait": {
+        "mean": 39.54169101019703,
+        "std": 19.54163885563324
+      },
+      "p95_queue_wait": {
+        "mean": 86.62309748374084,
+        "std": 35.23428873265775
+      },
+      "mean_response": {
+        "mean": 73.31632215181735,
+        "std": 20.650579887903305
+      },
+      "last_arrival": {
+        "mean": 497.4138042008971,
+        "std": 1.824104192971658
+      },
+      "drain_time": {
+        "mean": 124.95675345905468,
+        "std": 43.39399149813918
+      },
+      "failed_bid_rounds": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "rebid_rounds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "Contract-Net": {
+      "makespan": {
+        "mean": 613.9406555346171,
+        "std": 45.33053336862044
+      },
+      "mean_wait": {
+        "mean": 57.58962825387878,
+        "std": 22.443265634580186
+      },
+      "avg_wait": {
+        "mean": 57.58962825387878,
+        "std": 22.443265634580186
+      },
+      "p95_wait": {
+        "mean": 102.6604589991508,
+        "std": 39.314175113947535
+      },
+      "fairness": {
+        "mean": 0.9953471681989376,
+        "std": 0.0033513872188682186
+      },
+      "messages": {
+        "mean": 2165.9,
+        "std": 160.2970887654129
+      },
+      "throughput": {
+        "mean": 0.32100912127379877,
+        "std": 0.014918143787339539
+      },
+      "proxy_tokens": {
+        "mean": 83485.6,
+        "std": 6178.724148775917
+      },
+      "paper_tokens": {
+        "mean": 200838.0,
+        "std": 14863.911867338289
+      },
+      "estimated_token_cost": {
+        "mean": 83485.6,
+        "std": 6178.724148775917
+      },
+      "estimated_latency": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "context_pressure": {
+        "mean": 10.19111328125,
+        "std": 0.7542387876923726
+      },
+      "tasks": {
+        "mean": 196.9,
+        "std": 14.572462615037537
+      },
+      "mean_queue_wait": {
+        "mean": 36.76273414673419,
+        "std": 21.496164689062223
+      },
+      "p95_queue_wait": {
+        "mean": 81.56384302923952,
+        "std": 37.71092240494327
+      },
+      "mean_response": {
+        "mean": 69.40845797858817,
+        "std": 22.899776907426666
+      },
+      "last_arrival": {
+        "mean": 497.4138042008971,
+        "std": 1.824104192971658
+      },
+      "drain_time": {
+        "mean": 116.52685133371989,
+        "std": 44.94853177307806
+      },
+      "failed_bid_rounds": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "rebid_rounds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "SSI-Auction": {
+      "makespan": {
+        "mean": 597.4201264522289,
+        "std": 34.065160632685895
+      },
+      "mean_wait": {
+        "mean": 54.34813649505676,
+        "std": 14.350986284652238
+      },
+      "avg_wait": {
+        "mean": 54.34813649505676,
+        "std": 14.350986284652238
+      },
+      "p95_wait": {
+        "mean": 93.78799239820957,
+        "std": 24.395034670207846
+      },
+      "fairness": {
+        "mean": 0.9934329409649378,
+        "std": 0.004066846194893168
+      },
+      "messages": {
+        "mean": 4922.5,
+        "std": 364.3115653759384
+      },
+      "throughput": {
+        "mean": 0.3296430928115996,
+        "std": 0.017095239341238286
+      },
+      "proxy_tokens": {
+        "mean": 193749.6,
+        "std": 14339.303213196938
+      },
+      "paper_tokens": {
+        "mean": 476498.0,
+        "std": 35265.35952839084
+      },
+      "estimated_token_cost": {
+        "mean": 193749.6,
+        "std": 14339.303213196938
+      },
+      "estimated_latency": {
+        "mean": 98.45,
+        "std": 7.286231307518769
+      },
+      "context_pressure": {
+        "mean": 23.65107421875,
+        "std": 1.7504032242672043
+      },
+      "tasks": {
+        "mean": 196.9,
+        "std": 14.572462615037537
+      },
+      "mean_queue_wait": {
+        "mean": 35.51076930749545,
+        "std": 13.253376538901659
+      },
+      "p95_queue_wait": {
+        "mean": 70.76425118951732,
+        "std": 23.03565088395014
+      },
+      "mean_response": {
+        "mean": 65.14860214354454,
+        "std": 14.641928450621814
+      },
+      "last_arrival": {
+        "mean": 497.4138042008971,
+        "std": 1.824104192971658
+      },
+      "drain_time": {
+        "mean": 100.0063222513318,
+        "std": 33.548089640046136
+      },
+      "failed_bid_rounds": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "rebid_rounds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "CBBA": {
+      "makespan": {
+        "mean": 596.8601976148977,
+        "std": 33.905715679157986
+      },
+      "mean_wait": {
+        "mean": 54.66067114363961,
+        "std": 14.353561907411477
+      },
+      "avg_wait": {
+        "mean": 54.66067114363961,
+        "std": 14.353561907411477
+      },
+      "p95_wait": {
+        "mean": 94.4170203016106,
+        "std": 24.35517662286455
+      },
+      "fairness": {
+        "mean": 0.9936066784415934,
+        "std": 0.0042057924310594024
+      },
+      "messages": {
+        "mean": 11831.6,
+        "std": 583.8751921429784
+      },
+      "throughput": {
+        "mean": 0.3299722133344051,
+        "std": 0.01760866316083414
+      },
+      "proxy_tokens": {
+        "mean": 709896.0,
+        "std": 35032.5115285787
+      },
+      "paper_tokens": {
+        "mean": 709896.0,
+        "std": 35032.5115285787
+      },
+      "estimated_token_cost": {
+        "mean": 709896.0,
+        "std": 35032.5115285787
+      },
+      "estimated_latency": {
+        "mean": 236.63200000000003,
+        "std": 11.67750384285957
+      },
+      "context_pressure": {
+        "mean": 86.6572265625,
+        "std": 4.276429629953455
+      },
+      "tasks": {
+        "mean": 196.9,
+        "std": 14.572462615037537
+      },
+      "mean_queue_wait": {
+        "mean": 35.817501515781906,
+        "std": 13.256573940740566
+      },
+      "p95_queue_wait": {
+        "mean": 71.26929832227674,
+        "std": 23.050701569901555
+      },
+      "mean_response": {
+        "mean": 65.49166415187682,
+        "std": 14.635159264168628
+      },
+      "last_arrival": {
+        "mean": 497.4138042008971,
+        "std": 1.824104192971658
+      },
+      "drain_time": {
+        "mean": 99.44639341400047,
+        "std": 33.41360238669456
+      },
+      "failed_bid_rounds": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "rebid_rounds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    }
+  },
+  "bootstrap_cnp_vs_gc": {
+    "makespan": {
+      "method": "paired_percentile_bootstrap",
+      "n_pairs": 30,
+      "n_bootstrap": 10000,
+      "seed": 12345,
+      "mean_difference": -8.429902125334783,
+      "ci95": [
+        -16.76544905692511,
+        0.3811728393044192
+      ],
+      "ci_low": -16.76544905692511,
+      "ci_high": 0.3811728393044192
+    },
+    "mean_wait": {
+      "method": "paired_percentile_bootstrap",
+      "n_pairs": 30,
+      "n_bootstrap": 10000,
+      "seed": 12345,
+      "mean_difference": -4.470982271615101,
+      "ci95": [
+        -7.620063118029586,
+        -0.7608364327344694
+      ],
+      "ci_low": -7.620063118029586,
+      "ci_high": -0.7608364327344694
+    },
+    "p95_wait": {
+      "method": "paired_percentile_bootstrap",
+      "n_pairs": 30,
+      "n_bootstrap": 10000,
+      "seed": 12345,
+      "mean_difference": -7.331173270525855,
+      "ci95": [
+        -13.720594974314967,
+        -0.3914439591867397
+      ],
+      "ci_low": -13.720594974314967,
+      "ci_high": -0.3914439591867397
+    },
+    "fairness": {
+      "method": "paired_percentile_bootstrap",
+      "n_pairs": 30,
+      "n_bootstrap": 10000,
+      "seed": 12345,
+      "mean_difference": -0.0011731184964704155,
+      "ci95": [
+        -0.0020639189829554055,
+        -0.0004277516635173639
+      ],
+      "ci_low": -0.0020639189829554055,
+      "ci_high": -0.0004277516635173639
+    },
+    "messages": {
+      "method": "paired_percentile_bootstrap",
+      "n_pairs": 30,
+      "n_bootstrap": 10000,
+      "seed": 12345,
+      "mean_difference": -2559.7,
+      "ci95": [
+        -2628.6,
+        -2494.2558333333336
+      ],
+      "ci_low": -2628.6,
+      "ci_high": -2494.2558333333336
+    },
+    "throughput": {
+      "method": "paired_percentile_bootstrap",
+      "n_pairs": 30,
+      "n_bootstrap": 10000,
+      "seed": 12345,
+      "mean_difference": 0.0044316521924439726,
+      "ci95": [
+        0.0001030353433737419,
+        0.008556812903569697
+      ],
+      "ci_low": 0.0001030353433737419,
+      "ci_high": 0.008556812903569697
+    },
+    "proxy_tokens": {
+      "method": "paired_percentile_bootstrap",
+      "n_pairs": 30,
+      "n_bootstrap": 10000,
+      "seed": 12345,
+      "mean_difference": -389074.4,
+      "ci95": [
+        -399547.2,
+        -379126.88666666666
+      ],
+      "ci_low": -399547.2,
+      "ci_high": -379126.88666666666
+    }
+  }
+}

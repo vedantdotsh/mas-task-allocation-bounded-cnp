@@ -1,0 +1,47 @@
+{
+  "status": "smoke complete",
+  "model": "google/gemini-3.1-flash-lite",
+  "model_key": "gemini-3.1-flash-lite",
+  "variants": [
+    "oneshot",
+    "worked"
+  ],
+  "temperature": 0,
+  "include_main": false,
+  "prices_usd_per_million": {
+    "input": 0.25,
+    "output": 1.5
+  },
+  "budget": {
+    "actual_usd": 0.02178025,
+    "reserved_unknown_usd": 0.0,
+    "calls": 20,
+    "limit_usd": 3.5,
+    "call_cap": 6000
+  },
+  "key_usage_before_usd": 1.63120036,
+  "key_usage_after_usd": 1.645955,
+  "new_calls": 20,
+  "valid_calls": 20,
+  "invalid_or_failed_calls": 0,
+  "truncated_calls": 0,
+  "failed_calls": 0,
+  "reasoning_tokens": 0,
+  "calls_without_usage": 0,
+  "trials": [],
+  "logical_call_attempts": 20,
+  "unique_cached_attempts": 20,
+  "unique_failed_attempts": 0,
+  "unique_truncated_attempts": 0,
+  "unique_calls_without_usage": 0,
+  "unique_reported_cost_usd": 0.02178025,
+  "max_tokens": {
+    "bid": 2048,
+    "centralized": 8192,
+    "oneshot": 128
+  },
+  "why_chosen": "Current non-preview small Google Flash-class chat model that lists temperature support; billed reasoning tokens were zero in probe calls with and without a reasoning-off request, so no reasoning switch is sent. It replaces claude-haiku-4.5 (USD 1/5 per million), whose roughly USD 6 estimate for the worked sweep would have exceeded the USD 8 total; the newer claude-haiku-5.5 does not list temperature support and cannot run at temperature 0.",
+  "limitations": "Same small arithmetic-routing replication as the one-shot run. Worked variant: brief step-by-step working before the final JSON line. Sequential calls within a trial, trials in parallel threads; wall latency sums observed attempts including invalids and one-second retry backoffs, so it excludes queueing between trials. Provider routing on OpenRouter may differ between calls.",
+  "fallback": "worked: last JSON object parsed and strictly validated; a response cut off by max_tokens (finish_reason length) is invalid. one-shot other models: a markdown code fence around the bare JSON object is stripped before the same strict validation. One retry; then exclude invalid bidder; unserved if all invalid; centralized invalid after retry leaves task unserved",
+  "aggregate": {}
+}

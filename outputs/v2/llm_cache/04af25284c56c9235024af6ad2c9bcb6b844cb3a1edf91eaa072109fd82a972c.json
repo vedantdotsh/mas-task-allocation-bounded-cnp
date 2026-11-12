@@ -1,0 +1,45 @@
+{
+  "request": {
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "temperature": 0,
+    "max_tokens": 128,
+    "response_format": {
+      "type": "json_object"
+    },
+    "provider": {
+      "max_price": {
+        "prompt": 0.71,
+        "completion": 0.71
+      },
+      "require_parameters": true
+    },
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route spatial service tasks. An agent appends work to its FIFO queue. It cannot start travelling until both now and its committed_finish have passed. Travel is Euclidean distance from queue_end_position to task location divided by speed. Execution duration is workload divided by its proficiency for required_skill (floor 0.05). Estimate the duration from now until this task completes, including waiting, travel and execution. Use only the supplied state. Return only the requested JSON object, without explanation. Return {\"bid\": nonnegative number} for this agent."
+      },
+      {
+        "role": "user",
+        "content": "{\"now\":284.614319,\"task\":{\"task_id\":11,\"required_skill\":1,\"workload\":4.812588,\"location\":[90.385787,49.716481],\"arrival\":284.614319,\"deadline\":null},\"agent\":{\"agent_id\":2,\"skills\":[1.00973,1.013718,0.409683,0.362805,0.48031],\"speed\":1.131265,\"queue_end_position\":[41.762725,46.74721],\"committed_finish\":304.053233,\"queue\":[{\"task_id\":10,\"required_skill\":4,\"workload\":9.912015,\"location\":[41.762725,46.74721],\"arrival\":272.224892,\"deadline\":null,\"service_start\":283.416543,\"finish\":304.053233}]}}"
+      }
+    ],
+    "usage": {
+      "include": true
+    }
+  },
+  "value": 26.059,
+  "attempts": [
+    {
+      "attempt": 1,
+      "prompt_tokens": 317,
+      "completion_tokens": 9,
+      "cost_usd": 6.192e-05,
+      "valid": true,
+      "failed": false,
+      "error": null,
+      "response": "{\"bid\": 26.059}",
+      "generation_id": "gen-1794450448-wtdOTEUATAFrQGIR2RVi",
+      "latency_seconds": 0.5632429999532178
+    }
+  ]
+}

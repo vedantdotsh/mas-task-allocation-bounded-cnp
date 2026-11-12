@@ -1,0 +1,44 @@
+{
+  "request": {
+    "model": "google/gemini-3.1-flash-lite",
+    "temperature": 0,
+    "max_tokens": 2048,
+    "provider": {
+      "max_price": {
+        "prompt": 0.25,
+        "completion": 1.5
+      },
+      "require_parameters": true
+    },
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route spatial service tasks. An agent appends work to its FIFO queue. It cannot start travelling until both now and its committed_finish have passed. Travel is Euclidean distance from queue_end_position to task location divided by speed. Execution duration is workload divided by its proficiency for required_skill (floor 0.05). Estimate the duration from now until this task completes, including waiting, travel and execution. Use only the supplied state. Show brief step-by-step working: compute the waiting time, the travel time and the execution time separately, then add them to get the total. End your response with the answer as a JSON object on its own final line: {\"bid\": nonnegative number}."
+      },
+      {
+        "role": "user",
+        "content": "{\"now\":445.271056,\"task\":{\"task_id\":10,\"required_skill\":4,\"workload\":4.000365,\"location\":[15.631439,81.331952],\"arrival\":445.271056,\"deadline\":null},\"agent\":{\"agent_id\":7,\"skills\":[0.489755,0.312461,0.427001,1.067537,0.980443],\"speed\":1.256146,\"queue_end_position\":[25.491929,80.472315],\"committed_finish\":139.798316,\"queue\":[]}}"
+      }
+    ],
+    "usage": {
+      "include": true
+    }
+  },
+  "value": 11.95973,
+  "attempts": [
+    {
+      "attempt": 1,
+      "prompt_tokens": 335,
+      "completion_tokens": 450,
+      "cost_usd": 0.00075875,
+      "valid": true,
+      "failed": false,
+      "error": null,
+      "finish_reason": "stop",
+      "truncated": false,
+      "response": "To estimate the duration from now until the task completes, we follow these steps:\n\n**1. Waiting Time:**\nThe agent is available when `max(now, committed_finish)` is reached.\n`max(445.271056, 139.798316) = 445.271056`.\nSince the agent is already available at `now`, the waiting time is 0.\n\n**2. Travel Time:**\nThe distance from `queue_end_position` [25.491929, 80.472315] to task location [15.631439, 81.331952]:\nDistance = sqrt((15.631439 - 25.491929)^2 + (81.331952 - 80.472315)^2)\nDistance = sqrt((-9.86049)^2 + (0.859637)^2)\nDistance = sqrt(97.22926 + 0.738975) = sqrt(97.968235) \u2248 9.89789\nTravel Time = Distance / speed = 9.89789 / 1.256146 \u2248 7.87956\n\n**3. Execution Time:**\nProficiency for skill 4 is 0.980443.\nExecution duration = workload / proficiency = 4.000365 / 0.980443 \u2248 4.08017\n\n**4. Total Duration:**\nTotal = Waiting Time + Travel Time + Execution Time\nTotal = 0 + 7.87956 + 4.08017 = 11.95973\n\n{\"bid\": 11.95973}",
+      "generation_id": "gen-1794450259-msyl7ynX77DssbNdXJX7",
+      "latency_seconds": 1.6969518999103457
+    }
+  ]
+}

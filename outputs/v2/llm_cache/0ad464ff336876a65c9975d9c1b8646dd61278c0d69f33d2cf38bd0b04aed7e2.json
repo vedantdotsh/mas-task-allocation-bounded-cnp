@@ -1,0 +1,44 @@
+{
+  "request": {
+    "model": "google/gemini-3.1-flash-lite",
+    "temperature": 0,
+    "max_tokens": 8192,
+    "provider": {
+      "max_price": {
+        "prompt": 0.25,
+        "completion": 1.5
+      },
+      "require_parameters": true
+    },
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route spatial service tasks. An agent appends work to its FIFO queue. It cannot start travelling until both now and its committed_finish have passed. Travel is Euclidean distance from queue_end_position to task location divided by speed. Execution duration is workload divided by its proficiency for required_skill (floor 0.05). Estimate the duration from now until this task completes, including waiting, travel and execution. Use only the supplied state. Show brief step-by-step working: for each agent compute the waiting time, travel time and execution time and their sum, which is its estimated completion duration, one short line per agent; then choose the agent with the smallest duration, breaking ties by smallest id. End your response with the answer as a JSON object on its own final line: {\"agent_id\": integer}."
+      },
+      {
+        "role": "user",
+        "content": "{\"now\":19.751769,\"task\":{\"task_id\":1,\"required_skill\":4,\"workload\":7.317406,\"location\":[30.910412,58.833831],\"arrival\":19.751769,\"deadline\":null},\"agents\":[{\"agent_id\":0,\"skills\":[0.482881,0.294901,0.907479,0.237681,1.127567],\"speed\":0.844987,\"queue_end_position\":[67.924736,85.467574],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":1,\"skills\":[0.977423,0.476387,0.234993,0.352625,0.400512],\"speed\":1.122343,\"queue_end_position\":[46.646793,20.016795],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":2,\"skills\":[0.34246,1.05784,0.266593,0.461631,1.117331],\"speed\":1.010526,\"queue_end_position\":[12.015873,20.188981],\"committed_finish\":64.105719,\"queue\":[{\"task_id\":0,\"required_skill\":3,\"workload\":7.707369,\"location\":[12.015873,20.188981],\"arrival\":13.385073,\"deadline\":null,\"service_start\":47.40976,\"finish\":64.105719}]},{\"agent_id\":3,\"skills\":[1.168298,0.30036,0.210344,0.380086,0.36791],\"speed\":0.842349,\"queue_end_position\":[75.980946,94.183047],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":4,\"skills\":[0.444874,0.262079,0.955932,0.969809,0.481298],\"speed\":1.11119,\"queue_end_position\":[72.988913,89.234743],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":5,\"skills\":[0.293168,0.395755,1.17867,0.445322,0.20758],\"speed\":0.867446,\"queue_end_position\":[42.624041,98.328986],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":6,\"skills\":[0.88616,0.883218,0.404987,0.425237,0.372976],\"speed\":1.250962,\"queue_end_position\":[61.821829,36.405005],\"committed_finish\":0.0,\"queue\":[]},{\"agent_id\":7,\"skills\":[0.489755,0.312461,0.427001,1.067537,0.980443],\"speed\":1.256146,\"queue_end_position\":[12.710319,84.078618],\"committed_finish\":0.0,\"queue\":[]}]}"
+      }
+    ],
+    "usage": {
+      "include": true
+    }
+  },
+  "value": 7,
+  "attempts": [
+    {
+      "attempt": 1,
+      "prompt_tokens": 1147,
+      "completion_tokens": 787,
+      "cost_usd": 0.00146725,
+      "valid": true,
+      "failed": false,
+      "error": null,
+      "finish_reason": "stop",
+      "truncated": false,
+      "response": "To estimate the completion duration for each agent, we calculate:\n- **Wait Time**: `max(0, committed_finish - now)`\n- **Travel Time**: `Euclidean_distance(queue_end_position, [30.910412, 58.833831]) / speed`\n- **Execution Time**: `workload / max(0.05, proficiency)`\n\n**Agent 0**: Wait 0, Travel 46.55/0.844987 = 55.10, Exec 7.317406/0.237681 = 30.79. Total: 85.89\n**Agent 1**: Wait 0, Travel 43.55/1.122343 = 38.80, Exec 7.317406/0.352625 = 20.75. Total: 59.55\n**Agent 2**: Wait 64.105719 - 19.751769 = 44.35, Travel 43.55/1.010526 = 43.09, Exec 7.317406/0.461631 = 15.85. Total: 103.29\n**Agent 3**: Wait 0, Travel 53.55/0.842349 = 63.57, Exec 7.317406/0.380086 = 19.25. Total: 82.82\n**Agent 4**: Wait 0, Travel 50.55/1.11119 = 45.49, Exec 7.317406/0.969809 = 7.55. Total: 53.04\n**Agent 5**: Wait 0, Travel 40.55/0.867446 = 46.75, Exec 7.317406/0.445322 = 16.43. Total: 63.18\n**Agent 6**: Wait 0, Travel 35.55/1.250962 = 28.42, Exec 7.317406/0.425237 = 17.21. Total: 45.63\n**Agent 7**: Wait 0, Travel 30.55/1.256146 = 24.32, Exec 7.317406/1.067537 = 6.85. Total: 31.17\n\nComparing the total durations:\nAgent 0: 85.89\nAgent 1: 59.55\nAgent 2: 103.29\nAgent 3: 82.82\nAgent 4: 53.04\nAgent 5: 63.18\nAgent 6: 45.63\nAgent 7: 31.17\n\nThe smallest duration is 31.17 for Agent 7.\n\n{\"agent_id\": 7}",
+      "generation_id": "gen-1794451304-EmY8UFe0Mkk45hutHZZk",
+      "latency_seconds": 2.2757712999591604
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "status": "smoke complete",
+  "variant": "worked",
+  "model": "openai/gpt-4o-mini",
+  "temperature": 0,
+  "budget": {
+    "actual_usd": 0.0270783,
+    "reserved_unknown_usd": 0.0,
+    "calls": 20,
+    "limit_usd": 2.0,
+    "call_cap": 6000
+  },
+  "new_calls": 20,
+  "valid_calls": 20,
+  "invalid_or_failed_calls": 0,
+  "truncated_calls": 0,
+  "failed_calls": 0,
+  "calls_without_usage": 0,
+  "trials": [],
+  "logical_call_attempts": 20,
+  "unique_cached_attempts": 20,
+  "unique_failed_attempts": 0,
+  "unique_truncated_attempts": 0,
+  "unique_calls_without_usage": 0,
+  "unique_reported_cost_usd": 0.0270783,
+  "max_tokens": {
+    "bid": 1024,
+    "centralized": 4096
+  },
+  "limitations": "Same small arithmetic-routing replication as the one-shot run, with brief step-by-step working before the final JSON line. Sequential API calls; wall latency sums observed attempts including invalids and one-second retry backoffs.",
+  "fallback": "last JSON object parsed and strictly validated; a response cut off by max_tokens (finish_reason length) is invalid; one retry; then exclude invalid bidder; unserved if all invalid; centralized invalid after retry leaves task unserved",
+  "aggregate": {}
+}
