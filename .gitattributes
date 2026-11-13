@@ -1,0 +1,2 @@
+# Preserve result bytes used by the evidence hash checks on every platform.
+outputs/results/*.json -text

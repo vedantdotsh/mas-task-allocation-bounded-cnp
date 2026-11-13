@@ -1,14 +1,6 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
-*.egg-info/
-.venv/
 .env
-
-# Not part of the public reproduction package
-paper/
-docs/research/
-docs/model_notes_legacy.md
-docs/recovered_source_manifest.json
-scripts/update_paper_docx.py
-outputs/recovered_original/.qa_humyn_a11y.json
+.env.*
+.venv/

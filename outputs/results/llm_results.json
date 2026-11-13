@@ -1,0 +1,221 @@
+{
+  "params": {
+    "model": "openai/gpt-4o-mini",
+    "trials": 3,
+    "agents": 8,
+    "tasks": 30,
+    "k": 3,
+    "max_calls": 1500
+  },
+  "budget": {
+    "calls": 324,
+    "prompt_tokens": 79278,
+    "completion_tokens": 3068,
+    "total_tokens": 82346,
+    "total_latency_ms": 288049.143075943,
+    "failures": 0
+  },
+  "trials": [
+    {
+      "llm_cnp": {
+        "makespan": 196.63163616373026,
+        "mean_wait": 1.6803077137398337,
+        "p95_wait": 9.908541319833635,
+        "fairness": 0.8473727209591935,
+        "messages": 69,
+        "throughput": 0.11696998737704889,
+        "n_tasks": 23,
+        "proxy_tokens": 10783.0,
+        "proxy_latency_ms": 20700.0,
+        "context_pressure": 0.0842421875,
+        "llm": {
+          "calls": 69,
+          "prompt_tokens": 10155,
+          "completion_tokens": 628,
+          "total_tokens": 10783,
+          "total_latency_ms": 58378.451108932495,
+          "failures": 0
+        }
+      },
+      "llm_centralized": {
+        "makespan": 185.0507430903503,
+        "mean_wait": 2.1413481450303653,
+        "p95_wait": 9.7990331679786,
+        "fairness": 0.8902731455060788,
+        "messages": 23,
+        "throughput": 0.12429023313227303,
+        "n_tasks": 23,
+        "proxy_tokens": 12599.0,
+        "proxy_latency_ms": 6900.0,
+        "context_pressure": 0.0984296875,
+        "llm": {
+          "calls": 23,
+          "prompt_tokens": 12355,
+          "completion_tokens": 244,
+          "total_tokens": 12599,
+          "total_latency_ms": 21453.670263290405,
+          "failures": 0
+        }
+      },
+      "formula_cnp": {
+        "makespan": 180.33715791350778,
+        "mean_wait": 1.2701648354905481,
+        "p95_wait": 6.424900413686922,
+        "fairness": 0.7286134113823554,
+        "messages": 161,
+        "throughput": 0.12753888475402902,
+        "n_tasks": 23,
+        "proxy_tokens": 14260.0,
+        "proxy_latency_ms": 48300.0,
+        "context_pressure": 0.11140625,
+        "rebids": 0
+      },
+      "formula_centralized": {
+        "makespan": 180.90662961487809,
+        "mean_wait": 1.6806600820042108,
+        "p95_wait": 9.075540538405729,
+        "fairness": 0.7114479560417134,
+        "messages": 368,
+        "throughput": 0.127137408114691,
+        "n_tasks": 23,
+        "proxy_tokens": 82800.0,
+        "proxy_latency_ms": 110400.0,
+        "context_pressure": 0.646875
+      }
+    },
+    {
+      "llm_cnp": {
+        "makespan": 163.2979472673892,
+        "mean_wait": 3.1380973691321956,
+        "p95_wait": 16.142955372004298,
+        "fairness": 0.8849077473720908,
+        "messages": 90,
+        "throughput": 0.1837132707545739,
+        "n_tasks": 30,
+        "proxy_tokens": 14057.0,
+        "proxy_latency_ms": 27000.0,
+        "context_pressure": 0.1098203125,
+        "llm": {
+          "calls": 90,
+          "prompt_tokens": 13245,
+          "completion_tokens": 812,
+          "total_tokens": 14057,
+          "total_latency_ms": 79948.48227500916,
+          "failures": 0
+        }
+      },
+      "llm_centralized": {
+        "makespan": 208.45533242275783,
+        "mean_wait": 8.768834477319396,
+        "p95_wait": 39.58710186711045,
+        "fairness": 0.9223482314448541,
+        "messages": 30,
+        "throughput": 0.14391572358129223,
+        "n_tasks": 30,
+        "proxy_tokens": 16428.0,
+        "proxy_latency_ms": 9000.0,
+        "context_pressure": 0.12834375,
+        "llm": {
+          "calls": 30,
+          "prompt_tokens": 16115,
+          "completion_tokens": 313,
+          "total_tokens": 16428,
+          "total_latency_ms": 29376.736640930176,
+          "failures": 0
+        }
+      },
+      "formula_cnp": {
+        "makespan": 179.3415919595642,
+        "mean_wait": 4.272460158331847,
+        "p95_wait": 16.954224597968185,
+        "fairness": 0.7901886422629668,
+        "messages": 210,
+        "throughput": 0.16727854187200503,
+        "n_tasks": 30,
+        "proxy_tokens": 18600.0,
+        "proxy_latency_ms": 63000.0,
+        "context_pressure": 0.1453125,
+        "rebids": 0
+      },
+      "formula_centralized": {
+        "makespan": 178.85323483544698,
+        "mean_wait": 4.7442774616104275,
+        "p95_wait": 15.119083607175675,
+        "fairness": 0.7289681477552272,
+        "messages": 480,
+        "throughput": 0.16773529440270593,
+        "n_tasks": 30,
+        "proxy_tokens": 108000.0,
+        "proxy_latency_ms": 144000.0,
+        "context_pressure": 0.84375
+      }
+    },
+    {
+      "llm_cnp": {
+        "makespan": 179.20507338886773,
+        "mean_wait": 2.1306800387632223,
+        "p95_wait": 8.597881577416702,
+        "fairness": 0.9526716509712209,
+        "messages": 84,
+        "throughput": 0.15624557648120338,
+        "n_tasks": 28,
+        "proxy_tokens": 13141.0,
+        "proxy_latency_ms": 25200.0,
+        "context_pressure": 0.1026640625,
+        "llm": {
+          "calls": 84,
+          "prompt_tokens": 12366,
+          "completion_tokens": 775,
+          "total_tokens": 13141,
+          "total_latency_ms": 75393.82767677307,
+          "failures": 0
+        }
+      },
+      "llm_centralized": {
+        "makespan": 197.39421441264687,
+        "mean_wait": 6.060676872784136,
+        "p95_wait": 24.11872526310883,
+        "fairness": 0.9067067617712042,
+        "messages": 28,
+        "throughput": 0.1418481290513754,
+        "n_tasks": 28,
+        "proxy_tokens": 15338.0,
+        "proxy_latency_ms": 8400.0,
+        "context_pressure": 0.119828125,
+        "llm": {
+          "calls": 28,
+          "prompt_tokens": 15042,
+          "completion_tokens": 296,
+          "total_tokens": 15338,
+          "total_latency_ms": 23497.97511100769,
+          "failures": 0
+        }
+      },
+      "formula_cnp": {
+        "makespan": 180.27659746274915,
+        "mean_wait": 4.507445606632822,
+        "p95_wait": 21.974270782009825,
+        "fairness": 0.8612034467771453,
+        "messages": 196,
+        "throughput": 0.15531688746114528,
+        "n_tasks": 28,
+        "proxy_tokens": 17360.0,
+        "proxy_latency_ms": 58800.0,
+        "context_pressure": 0.135625,
+        "rebids": 0
+      },
+      "formula_centralized": {
+        "makespan": 181.66556909160298,
+        "mean_wait": 4.57398966267059,
+        "p95_wait": 23.205105147485455,
+        "fairness": 0.8231244943001179,
+        "messages": 448,
+        "throughput": 0.1541293715700265,
+        "n_tasks": 28,
+        "proxy_tokens": 100800.0,
+        "proxy_latency_ms": 134400.0,
+        "context_pressure": 0.7875
+      }
+    }
+  ]
+}

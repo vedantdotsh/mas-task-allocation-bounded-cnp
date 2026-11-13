@@ -1,92 +1,67 @@
-"""Exact offline makespan: enumerate subset routes, then branch-and-bound partitions.
+"""Ground-truth optimum for small instances via exhaustive search.
 
-Unlike an arrival-order assignment search, this also bounds batching mechanisms
-which may reorder tasks. Limits are explicit: at most four agents and 11 tasks.
+In this testbed a schedule is fully determined by the assignment vector
+(which agent serves each task, in arrival order), so the true optimum can
+be found by enumerating all n^T assignments with branch-and-bound on
+makespan. Feasible only for small instances (n <= 4, T <= ~12), which is
+exactly how we use it: as an optimality-gap reference, mirroring the
+MILP-reference methodology of recent MRTA work.
 """
-from dataclasses import dataclass
-from math import dist, inf
+
+from __future__ import annotations
 
 import numpy as np
 
-from .domain import execution_time, travel_time
-from .scenario import Scenario
+from .core import Agent, Task, schedule_task
+from .metrics import collect_metrics
 
 
-@dataclass
-class Optimum:
-    makespan: float
-    routes: dict[int, list[int]]
-    search_nodes: int
+def run_exhaustive_optimal(agents: list[Agent], tasks: list[Task], **_) -> dict:
+    n = len(agents)
+    T = len(tasks)
+    if n**T > 20_000_000:
+        raise ValueError(f"Instance too large for exhaustive search: {n}^{T}")
 
+    positions = [a.position.copy() for a in agents]
+    speeds = [a.speed for a in agents]
+    execs = [
+        [t.workload / max(float(a.skills[t.skill_type]), 0.05) for a in agents]
+        for t in tasks
+    ]
 
-def _subset_routes(agent, tasks):
-    size = len(tasks)
-    total = 1 << size
-    finishes = np.full((total, size), inf)
-    parents = np.full((total, size), -1, dtype=np.int16)
-    execution = [execution_time(agent, task) for task in tasks]
-    travel = [[dist(a.position, b.position) / agent.speed for b in tasks] for a in tasks]
-    for j, task in enumerate(tasks):
-        finishes[1 << j, j] = max(agent.busy_until, task.arrival) + travel_time(agent, task) + execution[j]
-    for mask in range(1, total):
-        ends = [j for j in range(size) if mask & (1 << j)]
-        for j in ends:
-            previous = mask ^ (1 << j)
-            if not previous:
-                continue
-            value, parent = min((max(float(finishes[previous, k]), tasks[j].arrival)
-                                  + travel[k][j] + execution[j], k) for k in ends if k != j)
-            finishes[mask, j] = value
-            parents[mask, j] = parent
-    best = np.min(finishes, axis=1)
-    best[0] = agent.busy_until
-    return best, finishes, parents
+    best_makespan = [np.inf]
+    best_assignment = [None]
 
-
-def exact_optimum(scenario: Scenario) -> Optimum:
-    agents, tasks = scenario.agents, scenario.tasks
-    if len(agents) > 4 or len(tasks) > 11:
-        raise ValueError("Exact search limited to four agents and eleven tasks")
-    if not tasks:
-        return Optimum(max(a.busy_until for a in agents), {a.id: [] for a in agents}, 1)
-    tables = [_subset_routes(agent, tasks) for agent in agents]
-    all_tasks = (1 << len(tasks)) - 1
-    incumbent = inf
-    best_partition = None
-    seen = {}
-    nodes = 0
-
-    def search(index, remaining, current, partition):
-        nonlocal incumbent, best_partition, nodes
-        nodes += 1
-        if current >= incumbent or current >= seen.get((index, remaining), inf):
+    # State per agent: (busy_until, position)
+    def dfs(idx: int, busy: list[float], pos: list[np.ndarray], assign: list[int], cur_max: float):
+        if cur_max >= best_makespan[0]:
+            return  # bound: cannot improve
+        if idx == T:
+            best_makespan[0] = cur_max
+            best_assignment[0] = assign.copy()
             return
-        seen[index, remaining] = current
-        if index == len(agents) - 1:
-            candidate = max(current, float(tables[index][0][remaining]))
-            if candidate < incumbent:
-                incumbent = candidate
-                best_partition = partition + [remaining]
-            return
-        # Enumerate every subset for this agent, pruning dominated partial makespans.
-        subset = remaining
-        while True:
-            value = max(current, float(tables[index][0][subset]))
-            if value < incumbent:
-                search(index + 1, remaining ^ subset, value, partition + [subset])
-            if subset == 0:
-                break
-            subset = (subset - 1) & remaining
+        task = tasks[idx]
+        # Order agents by finish time to reach good incumbents early.
+        order = sorted(
+            range(n),
+            key=lambda i: max(task.arrival_time, busy[i])
+            + np.linalg.norm(pos[i] - task.position) / speeds[i]
+            + execs[idx][i],
+        )
+        for i in order:
+            start = max(task.arrival_time, busy[i])
+            travel = float(np.linalg.norm(pos[i] - task.position) / speeds[i])
+            finish = start + travel + execs[idx][i]
+            old_busy, old_pos = busy[i], pos[i]
+            busy[i], pos[i] = finish, task.position
+            assign.append(i)
+            dfs(idx + 1, busy, pos, assign, max(cur_max, finish))
+            assign.pop()
+            busy[i], pos[i] = old_busy, old_pos
 
-    search(0, all_tasks, 0.0, [])
-    routes = {}
-    for agent, mask, (_, finishes, parents) in zip(agents, best_partition, tables):
-        route = []
-        end = int(np.argmin(finishes[mask])) if mask else -1
-        while mask:
-            route.append(tasks[end].id)
-            parent = int(parents[mask, end])
-            mask ^= 1 << end
-            end = parent
-        routes[agent.id] = list(reversed(route))
-    return Optimum(incumbent, routes, nodes)
+    dfs(0, [a.busy_until for a in agents], positions, [], 0.0)
+
+    # Replay the optimal assignment on the real agent objects.
+    for task, agent_idx in zip(tasks, best_assignment[0]):
+        schedule_task(agents[agent_idx], task)
+    return collect_metrics(agents, tasks, 0, 0.0)

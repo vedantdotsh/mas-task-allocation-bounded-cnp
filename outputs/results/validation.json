@@ -1,0 +1,33 @@
+{
+  "pytest_stdout": "...........................                                              [100%]\n27 passed in 0.33s\n",
+  "pytest_exit_code": 0,
+  "result_check_stdout": "PASS: all unaffected published values exact; k-ablation exact; fresh manager matches greedy; preserved result and LLM hashes match.\nChanged SSI/CBBA leaves: 208; unchanged leaves: 979\n",
+  "result_check_exit_code": 0,
+  "two_full_runs_identical": true,
+  "results_sha256": "3cc83aeed1b4fa497c2fc4abc89a0801c38fc62220395e88a1bd206a9e2e0b25",
+  "experiment_runtime_seconds": [
+    34.5,
+    30.7
+  ],
+  "fallback_nonresponse_03_matches_audit": true,
+  "versions": {
+    "python": "3.13.0",
+    "numpy": "2.2.6",
+    "matplotlib": "3.11.0"
+  },
+  "source_sha256": {
+    "src/mas_sim/__init__.py": "02f2774111fbac33a1aa979383ec30ac474200699940b6212c7c6eee4d98933a",
+    "src/mas_sim/core.py": "4a1d68f3fec9982b80ca4efc006206f8dda4c12806e3625150f519a3ee73034a",
+    "src/mas_sim/llm_proxy.py": "46d925688818fa20ec74b633c6952e290ea05f4adf22538a1fc6b8b98e938df1",
+    "src/mas_sim/mechanisms.py": "c907f01b9436337cdf5dcfcba36af5e03b57143e3d2b6f4398d0e661a15c6c5b",
+    "src/mas_sim/metrics.py": "94179e1e05eec45cb41311fc220b20d673c4a70ae56becaba98451cace46c59d",
+    "src/mas_sim/optimal.py": "64cd2221093e1e9923b4b433850b98b28cb0ad885f1eaddef1e3efd700e4e640",
+    "tests/test_mas_sim.py": "02ac04b2ca52538dad1215cc48e1658433e52b5c2faddba6d4d2ae33f80f417d",
+    "scripts/correction_report.py": "91fb8cb3e4b0a6d03bbe9a4375cd3ff63513539e215c6c7563748ea7da6f05cc",
+    "scripts/plot_llm_figure.py": "8d88eca645251f7f832a0b6105e58afdcb9d97eb28d415e32a3a1bf155a523ad",
+    "scripts/run_experiments.py": "26cdad4f36ea7aa381f98cefc9639c0b493d2c55389e545397b10bf47d748184",
+    "scripts/run_llm_experiment.py": "4da4cb801bf5ce0540ad6a2ce08e06834cd47c989b4c0402ce20c63cfd9c9592",
+    "checks/baseline_corrections_check.py": "786e857e9d13035e9b0fd4873cbfa2c40c4b37e467cefd63b31ffc63dca1af24",
+    "checks/measure_published.py": "9a8d9b88ff0b11c345f2fe35e56f667140224a523d738575ac5c47009278e52a"
+  }
+}

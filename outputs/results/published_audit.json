@@ -1,0 +1,4565 @@
+{
+  "fallbacks": {
+    "experiment_1": {
+      "fallbacks": 0,
+      "n_tasks": 6004,
+      "trials": [
+        {
+          "seed": 0,
+          "n_tasks": 190,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2090
+        },
+        {
+          "seed": 1,
+          "n_tasks": 209,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2299
+        },
+        {
+          "seed": 2,
+          "n_tasks": 215,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2365
+        },
+        {
+          "seed": 3,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2277
+        },
+        {
+          "seed": 4,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2233
+        },
+        {
+          "seed": 5,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        },
+        {
+          "seed": 6,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2233
+        },
+        {
+          "seed": 7,
+          "n_tasks": 198,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2178
+        },
+        {
+          "seed": 8,
+          "n_tasks": 205,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2255
+        },
+        {
+          "seed": 9,
+          "n_tasks": 183,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2013
+        },
+        {
+          "seed": 10,
+          "n_tasks": 198,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2178
+        },
+        {
+          "seed": 11,
+          "n_tasks": 213,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2343
+        },
+        {
+          "seed": 12,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2068
+        },
+        {
+          "seed": 13,
+          "n_tasks": 198,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2178
+        },
+        {
+          "seed": 14,
+          "n_tasks": 198,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2178
+        },
+        {
+          "seed": 15,
+          "n_tasks": 196,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2156
+        },
+        {
+          "seed": 16,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1958
+        },
+        {
+          "seed": 17,
+          "n_tasks": 210,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2310
+        },
+        {
+          "seed": 18,
+          "n_tasks": 200,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2200
+        },
+        {
+          "seed": 19,
+          "n_tasks": 209,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2299
+        },
+        {
+          "seed": 20,
+          "n_tasks": 224,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2464
+        },
+        {
+          "seed": 21,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 22,
+          "n_tasks": 217,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2387
+        },
+        {
+          "seed": 23,
+          "n_tasks": 210,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2310
+        },
+        {
+          "seed": 24,
+          "n_tasks": 205,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2255
+        },
+        {
+          "seed": 25,
+          "n_tasks": 184,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2024
+        },
+        {
+          "seed": 26,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1903
+        },
+        {
+          "seed": 27,
+          "n_tasks": 199,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2189
+        },
+        {
+          "seed": 28,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2068
+        },
+        {
+          "seed": 29,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        }
+      ]
+    },
+    "experiment_2.n=4": {
+      "fallbacks": 0,
+      "n_tasks": 3959,
+      "trials": [
+        {
+          "seed": 1000,
+          "n_tasks": 214,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1926
+        },
+        {
+          "seed": 1001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1863
+        },
+        {
+          "seed": 1002,
+          "n_tasks": 190,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1710
+        },
+        {
+          "seed": 1003,
+          "n_tasks": 190,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1710
+        },
+        {
+          "seed": 1004,
+          "n_tasks": 201,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1809
+        },
+        {
+          "seed": 1005,
+          "n_tasks": 187,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1683
+        },
+        {
+          "seed": 1006,
+          "n_tasks": 174,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1566
+        },
+        {
+          "seed": 1007,
+          "n_tasks": 201,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1809
+        },
+        {
+          "seed": 1008,
+          "n_tasks": 193,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1737
+        },
+        {
+          "seed": 1009,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1827
+        },
+        {
+          "seed": 1010,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1692
+        },
+        {
+          "seed": 1011,
+          "n_tasks": 182,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1638
+        },
+        {
+          "seed": 1012,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2007
+        },
+        {
+          "seed": 1013,
+          "n_tasks": 227,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2043
+        },
+        {
+          "seed": 1014,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1773
+        },
+        {
+          "seed": 1015,
+          "n_tasks": 185,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1665
+        },
+        {
+          "seed": 1016,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1692
+        },
+        {
+          "seed": 1017,
+          "n_tasks": 218,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1962
+        },
+        {
+          "seed": 1018,
+          "n_tasks": 183,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1647
+        },
+        {
+          "seed": 1019,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1872
+        }
+      ]
+    },
+    "experiment_2.n=8": {
+      "fallbacks": 0,
+      "n_tasks": 4099,
+      "trials": [
+        {
+          "seed": 1000,
+          "n_tasks": 237,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2607
+        },
+        {
+          "seed": 1001,
+          "n_tasks": 201,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2211
+        },
+        {
+          "seed": 1002,
+          "n_tasks": 221,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2431
+        },
+        {
+          "seed": 1003,
+          "n_tasks": 228,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2508
+        },
+        {
+          "seed": 1004,
+          "n_tasks": 194,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2134
+        },
+        {
+          "seed": 1005,
+          "n_tasks": 174,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1914
+        },
+        {
+          "seed": 1006,
+          "n_tasks": 187,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2057
+        },
+        {
+          "seed": 1007,
+          "n_tasks": 186,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2046
+        },
+        {
+          "seed": 1008,
+          "n_tasks": 199,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2189
+        },
+        {
+          "seed": 1009,
+          "n_tasks": 201,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2211
+        },
+        {
+          "seed": 1010,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2233
+        },
+        {
+          "seed": 1011,
+          "n_tasks": 181,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1991
+        },
+        {
+          "seed": 1012,
+          "n_tasks": 225,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2475
+        },
+        {
+          "seed": 1013,
+          "n_tasks": 233,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2563
+        },
+        {
+          "seed": 1014,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        },
+        {
+          "seed": 1015,
+          "n_tasks": 192,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2112
+        },
+        {
+          "seed": 1016,
+          "n_tasks": 219,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2409
+        },
+        {
+          "seed": 1017,
+          "n_tasks": 215,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2365
+        },
+        {
+          "seed": 1018,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 1019,
+          "n_tasks": 190,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2090
+        }
+      ]
+    },
+    "experiment_2.n=12": {
+      "fallbacks": 0,
+      "n_tasks": 4012,
+      "trials": [
+        {
+          "seed": 1000,
+          "n_tasks": 222,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2442
+        },
+        {
+          "seed": 1001,
+          "n_tasks": 199,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2189
+        },
+        {
+          "seed": 1002,
+          "n_tasks": 186,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2046
+        },
+        {
+          "seed": 1003,
+          "n_tasks": 184,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2024
+        },
+        {
+          "seed": 1004,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2277
+        },
+        {
+          "seed": 1005,
+          "n_tasks": 174,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1914
+        },
+        {
+          "seed": 1006,
+          "n_tasks": 190,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2090
+        },
+        {
+          "seed": 1007,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        },
+        {
+          "seed": 1008,
+          "n_tasks": 193,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2123
+        },
+        {
+          "seed": 1009,
+          "n_tasks": 198,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2178
+        },
+        {
+          "seed": 1010,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2266
+        },
+        {
+          "seed": 1011,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 1012,
+          "n_tasks": 210,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2310
+        },
+        {
+          "seed": 1013,
+          "n_tasks": 200,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2200
+        },
+        {
+          "seed": 1014,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 1015,
+          "n_tasks": 193,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2123
+        },
+        {
+          "seed": 1016,
+          "n_tasks": 219,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2409
+        },
+        {
+          "seed": 1017,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 1018,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 1019,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        }
+      ]
+    },
+    "experiment_2.n=16": {
+      "fallbacks": 0,
+      "n_tasks": 4139,
+      "trials": [
+        {
+          "seed": 1000,
+          "n_tasks": 228,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2508
+        },
+        {
+          "seed": 1001,
+          "n_tasks": 196,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2156
+        },
+        {
+          "seed": 1002,
+          "n_tasks": 229,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2519
+        },
+        {
+          "seed": 1003,
+          "n_tasks": 234,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2574
+        },
+        {
+          "seed": 1004,
+          "n_tasks": 192,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2112
+        },
+        {
+          "seed": 1005,
+          "n_tasks": 201,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2211
+        },
+        {
+          "seed": 1006,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        },
+        {
+          "seed": 1007,
+          "n_tasks": 193,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2123
+        },
+        {
+          "seed": 1008,
+          "n_tasks": 194,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2134
+        },
+        {
+          "seed": 1009,
+          "n_tasks": 200,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2200
+        },
+        {
+          "seed": 1010,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 1011,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2266
+        },
+        {
+          "seed": 1012,
+          "n_tasks": 199,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2189
+        },
+        {
+          "seed": 1013,
+          "n_tasks": 219,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2409
+        },
+        {
+          "seed": 1014,
+          "n_tasks": 233,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2563
+        },
+        {
+          "seed": 1015,
+          "n_tasks": 191,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2101
+        },
+        {
+          "seed": 1016,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 1017,
+          "n_tasks": 187,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2057
+        },
+        {
+          "seed": 1018,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2277
+        },
+        {
+          "seed": 1019,
+          "n_tasks": 213,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2343
+        }
+      ]
+    },
+    "experiment_2.n=24": {
+      "fallbacks": 0,
+      "n_tasks": 4044,
+      "trials": [
+        {
+          "seed": 1000,
+          "n_tasks": 217,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2387
+        },
+        {
+          "seed": 1001,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 1002,
+          "n_tasks": 217,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2387
+        },
+        {
+          "seed": 1003,
+          "n_tasks": 193,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2123
+        },
+        {
+          "seed": 1004,
+          "n_tasks": 199,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2189
+        },
+        {
+          "seed": 1005,
+          "n_tasks": 200,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2200
+        },
+        {
+          "seed": 1006,
+          "n_tasks": 194,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2134
+        },
+        {
+          "seed": 1007,
+          "n_tasks": 193,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2123
+        },
+        {
+          "seed": 1008,
+          "n_tasks": 192,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2112
+        },
+        {
+          "seed": 1009,
+          "n_tasks": 199,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2189
+        },
+        {
+          "seed": 1010,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 1011,
+          "n_tasks": 199,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2189
+        },
+        {
+          "seed": 1012,
+          "n_tasks": 221,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2431
+        },
+        {
+          "seed": 1013,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 1014,
+          "n_tasks": 215,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2365
+        },
+        {
+          "seed": 1015,
+          "n_tasks": 183,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2013
+        },
+        {
+          "seed": 1016,
+          "n_tasks": 201,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2211
+        },
+        {
+          "seed": 1017,
+          "n_tasks": 198,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2178
+        },
+        {
+          "seed": 1018,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 1019,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        }
+      ]
+    },
+    "experiment_2.n=32": {
+      "fallbacks": 0,
+      "n_tasks": 4027,
+      "trials": [
+        {
+          "seed": 1000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2453
+        },
+        {
+          "seed": 1001,
+          "n_tasks": 221,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2431
+        },
+        {
+          "seed": 1002,
+          "n_tasks": 176,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1936
+        },
+        {
+          "seed": 1003,
+          "n_tasks": 205,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2255
+        },
+        {
+          "seed": 1004,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        },
+        {
+          "seed": 1005,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        },
+        {
+          "seed": 1006,
+          "n_tasks": 189,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2079
+        },
+        {
+          "seed": 1007,
+          "n_tasks": 190,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2090
+        },
+        {
+          "seed": 1008,
+          "n_tasks": 186,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2046
+        },
+        {
+          "seed": 1009,
+          "n_tasks": 205,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2255
+        },
+        {
+          "seed": 1010,
+          "n_tasks": 205,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2255
+        },
+        {
+          "seed": 1011,
+          "n_tasks": 190,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2090
+        },
+        {
+          "seed": 1012,
+          "n_tasks": 209,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2299
+        },
+        {
+          "seed": 1013,
+          "n_tasks": 226,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2486
+        },
+        {
+          "seed": 1014,
+          "n_tasks": 224,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2464
+        },
+        {
+          "seed": 1015,
+          "n_tasks": 187,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2057
+        },
+        {
+          "seed": 1016,
+          "n_tasks": 201,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2211
+        },
+        {
+          "seed": 1017,
+          "n_tasks": 196,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2156
+        },
+        {
+          "seed": 1018,
+          "n_tasks": 193,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2123
+        },
+        {
+          "seed": 1019,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        }
+      ]
+    },
+    "experiment_3.k=1": {
+      "fallbacks": 0,
+      "n_tasks": 3945,
+      "trials": [
+        {
+          "seed": 2000,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 606
+        },
+        {
+          "seed": 2001,
+          "n_tasks": 194,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 582
+        },
+        {
+          "seed": 2002,
+          "n_tasks": 200,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 600
+        },
+        {
+          "seed": 2003,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 564
+        },
+        {
+          "seed": 2004,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 606
+        },
+        {
+          "seed": 2005,
+          "n_tasks": 196,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 588
+        },
+        {
+          "seed": 2006,
+          "n_tasks": 222,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 666
+        },
+        {
+          "seed": 2007,
+          "n_tasks": 229,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 687
+        },
+        {
+          "seed": 2008,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 585
+        },
+        {
+          "seed": 2009,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 534
+        },
+        {
+          "seed": 2010,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 564
+        },
+        {
+          "seed": 2011,
+          "n_tasks": 183,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 549
+        },
+        {
+          "seed": 2012,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 606
+        },
+        {
+          "seed": 2013,
+          "n_tasks": 181,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 543
+        },
+        {
+          "seed": 2014,
+          "n_tasks": 219,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 657
+        },
+        {
+          "seed": 2015,
+          "n_tasks": 209,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 627
+        },
+        {
+          "seed": 2016,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 618
+        },
+        {
+          "seed": 2017,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 534
+        },
+        {
+          "seed": 2018,
+          "n_tasks": 198,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 594
+        },
+        {
+          "seed": 2019,
+          "n_tasks": 175,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 525
+        }
+      ]
+    },
+    "experiment_3.k=2": {
+      "fallbacks": 0,
+      "n_tasks": 3945,
+      "trials": [
+        {
+          "seed": 2000,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1010
+        },
+        {
+          "seed": 2001,
+          "n_tasks": 194,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 970
+        },
+        {
+          "seed": 2002,
+          "n_tasks": 200,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1000
+        },
+        {
+          "seed": 2003,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 940
+        },
+        {
+          "seed": 2004,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1010
+        },
+        {
+          "seed": 2005,
+          "n_tasks": 196,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 980
+        },
+        {
+          "seed": 2006,
+          "n_tasks": 222,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1110
+        },
+        {
+          "seed": 2007,
+          "n_tasks": 229,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1145
+        },
+        {
+          "seed": 2008,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 975
+        },
+        {
+          "seed": 2009,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 890
+        },
+        {
+          "seed": 2010,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 940
+        },
+        {
+          "seed": 2011,
+          "n_tasks": 183,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 915
+        },
+        {
+          "seed": 2012,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1010
+        },
+        {
+          "seed": 2013,
+          "n_tasks": 181,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 905
+        },
+        {
+          "seed": 2014,
+          "n_tasks": 219,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1095
+        },
+        {
+          "seed": 2015,
+          "n_tasks": 209,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1045
+        },
+        {
+          "seed": 2016,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1030
+        },
+        {
+          "seed": 2017,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 890
+        },
+        {
+          "seed": 2018,
+          "n_tasks": 198,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 990
+        },
+        {
+          "seed": 2019,
+          "n_tasks": 175,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 875
+        }
+      ]
+    },
+    "experiment_3.k=3": {
+      "fallbacks": 0,
+      "n_tasks": 3945,
+      "trials": [
+        {
+          "seed": 2000,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1414
+        },
+        {
+          "seed": 2001,
+          "n_tasks": 194,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1358
+        },
+        {
+          "seed": 2002,
+          "n_tasks": 200,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1400
+        },
+        {
+          "seed": 2003,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1316
+        },
+        {
+          "seed": 2004,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1414
+        },
+        {
+          "seed": 2005,
+          "n_tasks": 196,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1372
+        },
+        {
+          "seed": 2006,
+          "n_tasks": 222,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1554
+        },
+        {
+          "seed": 2007,
+          "n_tasks": 229,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1603
+        },
+        {
+          "seed": 2008,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1365
+        },
+        {
+          "seed": 2009,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1246
+        },
+        {
+          "seed": 2010,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1316
+        },
+        {
+          "seed": 2011,
+          "n_tasks": 183,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1281
+        },
+        {
+          "seed": 2012,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1414
+        },
+        {
+          "seed": 2013,
+          "n_tasks": 181,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1267
+        },
+        {
+          "seed": 2014,
+          "n_tasks": 219,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1533
+        },
+        {
+          "seed": 2015,
+          "n_tasks": 209,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1463
+        },
+        {
+          "seed": 2016,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1442
+        },
+        {
+          "seed": 2017,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1246
+        },
+        {
+          "seed": 2018,
+          "n_tasks": 198,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1386
+        },
+        {
+          "seed": 2019,
+          "n_tasks": 175,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1225
+        }
+      ]
+    },
+    "experiment_3.k=5": {
+      "fallbacks": 0,
+      "n_tasks": 3945,
+      "trials": [
+        {
+          "seed": 2000,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        },
+        {
+          "seed": 2001,
+          "n_tasks": 194,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2134
+        },
+        {
+          "seed": 2002,
+          "n_tasks": 200,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2200
+        },
+        {
+          "seed": 2003,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2068
+        },
+        {
+          "seed": 2004,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        },
+        {
+          "seed": 2005,
+          "n_tasks": 196,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2156
+        },
+        {
+          "seed": 2006,
+          "n_tasks": 222,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2442
+        },
+        {
+          "seed": 2007,
+          "n_tasks": 229,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2519
+        },
+        {
+          "seed": 2008,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        },
+        {
+          "seed": 2009,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1958
+        },
+        {
+          "seed": 2010,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2068
+        },
+        {
+          "seed": 2011,
+          "n_tasks": 183,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2013
+        },
+        {
+          "seed": 2012,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        },
+        {
+          "seed": 2013,
+          "n_tasks": 181,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1991
+        },
+        {
+          "seed": 2014,
+          "n_tasks": 219,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2409
+        },
+        {
+          "seed": 2015,
+          "n_tasks": 209,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2299
+        },
+        {
+          "seed": 2016,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2266
+        },
+        {
+          "seed": 2017,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1958
+        },
+        {
+          "seed": 2018,
+          "n_tasks": 198,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2178
+        },
+        {
+          "seed": 2019,
+          "n_tasks": 175,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1925
+        }
+      ]
+    },
+    "experiment_3.k=8": {
+      "fallbacks": 0,
+      "n_tasks": 3945,
+      "trials": [
+        {
+          "seed": 2000,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3434
+        },
+        {
+          "seed": 2001,
+          "n_tasks": 194,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3298
+        },
+        {
+          "seed": 2002,
+          "n_tasks": 200,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3400
+        },
+        {
+          "seed": 2003,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3196
+        },
+        {
+          "seed": 2004,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3434
+        },
+        {
+          "seed": 2005,
+          "n_tasks": 196,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3332
+        },
+        {
+          "seed": 2006,
+          "n_tasks": 222,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3774
+        },
+        {
+          "seed": 2007,
+          "n_tasks": 229,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3893
+        },
+        {
+          "seed": 2008,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3315
+        },
+        {
+          "seed": 2009,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3026
+        },
+        {
+          "seed": 2010,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3196
+        },
+        {
+          "seed": 2011,
+          "n_tasks": 183,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3111
+        },
+        {
+          "seed": 2012,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3434
+        },
+        {
+          "seed": 2013,
+          "n_tasks": 181,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3077
+        },
+        {
+          "seed": 2014,
+          "n_tasks": 219,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3723
+        },
+        {
+          "seed": 2015,
+          "n_tasks": 209,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3553
+        },
+        {
+          "seed": 2016,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3502
+        },
+        {
+          "seed": 2017,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3026
+        },
+        {
+          "seed": 2018,
+          "n_tasks": 198,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3366
+        },
+        {
+          "seed": 2019,
+          "n_tasks": 175,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2975
+        }
+      ]
+    },
+    "experiment_3.k=12": {
+      "fallbacks": 0,
+      "n_tasks": 3945,
+      "trials": [
+        {
+          "seed": 2000,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 5050
+        },
+        {
+          "seed": 2001,
+          "n_tasks": 194,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4850
+        },
+        {
+          "seed": 2002,
+          "n_tasks": 200,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 5000
+        },
+        {
+          "seed": 2003,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4700
+        },
+        {
+          "seed": 2004,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 5050
+        },
+        {
+          "seed": 2005,
+          "n_tasks": 196,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4900
+        },
+        {
+          "seed": 2006,
+          "n_tasks": 222,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 5550
+        },
+        {
+          "seed": 2007,
+          "n_tasks": 229,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 5725
+        },
+        {
+          "seed": 2008,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4875
+        },
+        {
+          "seed": 2009,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4450
+        },
+        {
+          "seed": 2010,
+          "n_tasks": 188,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4700
+        },
+        {
+          "seed": 2011,
+          "n_tasks": 183,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4575
+        },
+        {
+          "seed": 2012,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 5050
+        },
+        {
+          "seed": 2013,
+          "n_tasks": 181,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4525
+        },
+        {
+          "seed": 2014,
+          "n_tasks": 219,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 5475
+        },
+        {
+          "seed": 2015,
+          "n_tasks": 209,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 5225
+        },
+        {
+          "seed": 2016,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 5150
+        },
+        {
+          "seed": 2017,
+          "n_tasks": 178,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4450
+        },
+        {
+          "seed": 2018,
+          "n_tasks": 198,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4950
+        },
+        {
+          "seed": 2019,
+          "n_tasks": 175,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4375
+        }
+      ]
+    },
+    "experiment_4": {
+      "fallbacks": 0,
+      "n_tasks": 182,
+      "trials": [
+        {
+          "seed": 3000,
+          "n_tasks": 7,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 49
+        },
+        {
+          "seed": 3001,
+          "n_tasks": 11,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 77
+        },
+        {
+          "seed": 3002,
+          "n_tasks": 9,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 63
+        },
+        {
+          "seed": 3003,
+          "n_tasks": 11,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 77
+        },
+        {
+          "seed": 3004,
+          "n_tasks": 10,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 70
+        },
+        {
+          "seed": 3005,
+          "n_tasks": 7,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 49
+        },
+        {
+          "seed": 3006,
+          "n_tasks": 6,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 42
+        },
+        {
+          "seed": 3007,
+          "n_tasks": 11,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 77
+        },
+        {
+          "seed": 3008,
+          "n_tasks": 8,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 56
+        },
+        {
+          "seed": 3009,
+          "n_tasks": 6,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 42
+        },
+        {
+          "seed": 3010,
+          "n_tasks": 9,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 63
+        },
+        {
+          "seed": 3011,
+          "n_tasks": 11,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 77
+        },
+        {
+          "seed": 3012,
+          "n_tasks": 6,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 42
+        },
+        {
+          "seed": 3013,
+          "n_tasks": 11,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 77
+        },
+        {
+          "seed": 3014,
+          "n_tasks": 11,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 77
+        },
+        {
+          "seed": 3015,
+          "n_tasks": 7,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 49
+        },
+        {
+          "seed": 3016,
+          "n_tasks": 11,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 77
+        },
+        {
+          "seed": 3017,
+          "n_tasks": 8,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 56
+        },
+        {
+          "seed": 3018,
+          "n_tasks": 11,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 77
+        },
+        {
+          "seed": 3019,
+          "n_tasks": 11,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 77
+        }
+      ]
+    },
+    "experiment_5.single_round.0.0": {
+      "fallbacks": 0,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2453
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2277
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1760
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2266
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2233
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2288
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1903
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        }
+      ]
+    },
+    "experiment_5.rebid.0.0": {
+      "fallbacks": 0,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2453
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2277
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1760
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2266
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2233
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2288
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1903
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        }
+      ]
+    },
+    "experiment_5.single_round.0.1": {
+      "fallbacks": 0,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2453
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2277
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1760
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2266
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2233
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2288
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1903
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        }
+      ]
+    },
+    "experiment_5.rebid.0.1": {
+      "fallbacks": 0,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2508
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2398
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2288
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2398
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2442
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1793
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2354
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2409
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2299
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2519
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2211
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2486
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2453
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2453
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2310
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2200
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2365
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2002
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        }
+      ]
+    },
+    "experiment_5.single_round.0.2": {
+      "fallbacks": 0,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2453
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2277
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1760
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2266
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2233
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2288
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1903
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        }
+      ]
+    },
+    "experiment_5.rebid.0.2": {
+      "fallbacks": 0,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3223
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3091
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2948
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3146
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3080
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2299
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3069
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3113
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3036
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2871
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3091
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2827
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3157
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3157
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3190
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2915
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2937
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3003
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2475
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3047
+        }
+      ]
+    },
+    "experiment_5.single_round.0.3": {
+      "fallbacks": 0,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2453
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2277
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1760
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2266
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2233
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2288
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1903
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        }
+      ]
+    },
+    "experiment_5.rebid.0.3": {
+      "fallbacks": 0,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3806
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3520
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3421
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3630
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3608
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2695
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3454
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3597
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3454
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3399
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3718
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3234
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3751
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3663
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3586
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3608
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3366
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3432
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2805
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3355
+        }
+      ]
+    },
+    "experiment_5.single_round.0.5": {
+      "fallbacks": 0,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2453
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2277
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1760
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2266
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2233
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2288
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1903
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        }
+      ]
+    },
+    "experiment_5.rebid.0.5": {
+      "fallbacks": 0,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4169
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3894
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3861
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4158
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4180
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3124
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4004
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4037
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3993
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3883
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4213
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3872
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4070
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4169
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4114
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3960
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3817
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 4015
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3322
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 3949
+        }
+      ]
+    },
+    "experiment_5.nonresponse.0.0": {
+      "fallbacks": 0,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2453
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2277
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2321
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1760
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2266
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2233
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2145
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2376
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2332
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2244
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2288
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1903
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2222
+        }
+      ]
+    },
+    "experiment_5.nonresponse.0.1": {
+      "fallbacks": 0,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2326
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2072
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2220
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2211
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1689
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2136
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2167
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2141
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2109
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2276
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2046
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2266
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2229
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2213
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2129
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2073
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2177
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1817
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2099
+        }
+      ]
+    },
+    "experiment_5.nonresponse.0.3": {
+      "fallbacks": 9,
+      "n_tasks": 4059,
+      "trials": [
+        {
+          "seed": 4000,
+          "n_tasks": 223,
+          "fallbacks": 1,
+          "fallback_task_ids": [
+            47
+          ],
+          "messages": 2104
+        },
+        {
+          "seed": 4001,
+          "n_tasks": 207,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1967
+        },
+        {
+          "seed": 4002,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1889
+        },
+        {
+          "seed": 4003,
+          "n_tasks": 211,
+          "fallbacks": 1,
+          "fallback_task_ids": [
+            182
+          ],
+          "messages": 1991
+        },
+        {
+          "seed": 4004,
+          "n_tasks": 211,
+          "fallbacks": 1,
+          "fallback_task_ids": [
+            136
+          ],
+          "messages": 2003
+        },
+        {
+          "seed": 4005,
+          "n_tasks": 160,
+          "fallbacks": 1,
+          "fallback_task_ids": [
+            155
+          ],
+          "messages": 1529
+        },
+        {
+          "seed": 4006,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1925
+        },
+        {
+          "seed": 4007,
+          "n_tasks": 206,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1958
+        },
+        {
+          "seed": 4008,
+          "n_tasks": 203,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1972
+        },
+        {
+          "seed": 4009,
+          "n_tasks": 202,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1926
+        },
+        {
+          "seed": 4010,
+          "n_tasks": 216,
+          "fallbacks": 1,
+          "fallback_task_ids": [
+            85
+          ],
+          "messages": 2053
+        },
+        {
+          "seed": 4011,
+          "n_tasks": 195,
+          "fallbacks": 3,
+          "fallback_task_ids": [
+            0,
+            19,
+            80
+          ],
+          "messages": 1844
+        },
+        {
+          "seed": 4012,
+          "n_tasks": 216,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2058
+        },
+        {
+          "seed": 4013,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2019
+        },
+        {
+          "seed": 4014,
+          "n_tasks": 212,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 2014
+        },
+        {
+          "seed": 4015,
+          "n_tasks": 204,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1942
+        },
+        {
+          "seed": 4016,
+          "n_tasks": 197,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1866
+        },
+        {
+          "seed": 4017,
+          "n_tasks": 208,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1984
+        },
+        {
+          "seed": 4018,
+          "n_tasks": 173,
+          "fallbacks": 0,
+          "fallback_task_ids": [],
+          "messages": 1621
+        },
+        {
+          "seed": 4019,
+          "n_tasks": 202,
+          "fallbacks": 1,
+          "fallback_task_ids": [
+            71
+          ],
+          "messages": 1892
+        }
+      ]
+    }
+  },
+  "experiment_4_original": {
+    "SSI-Auction": {
+      "aggregate": {
+        "makespan": {
+          "mean": 103.3388289346198,
+          "std": 16.360075632086588
+        },
+        "mean_wait": {
+          "mean": 8.68319263644064,
+          "std": 5.312162823506974
+        },
+        "p95_wait": {
+          "mean": 26.324998591935092,
+          "std": 13.887300439283747
+        },
+        "fairness": {
+          "mean": 0.8955927639775398,
+          "std": 0.07342497935528425
+        },
+        "messages": {
+          "mean": 81.9,
+          "std": 18.211910504132355
+        },
+        "throughput": {
+          "mean": 0.08810692821075786,
+          "std": 0.014910968727001728
+        },
+        "proxy_tokens": {
+          "mean": 7462.0,
+          "std": 1659.3074014876142
+        },
+        "proxy_latency_ms": {
+          "mean": 24570.0,
+          "std": 5463.573151239706
+        },
+        "context_pressure": {
+          "mean": 0.058296875000000005,
+          "std": 0.012963339074121987
+        }
+      },
+      "trials": [
+        {
+          "makespan": 90.97871499340218,
+          "mean_wait": 3.775985375952031,
+          "p95_wait": 12.651324002505648,
+          "fairness": 0.8473122259584396,
+          "messages": 63,
+          "throughput": 0.07694107353030478,
+          "proxy_tokens": 5740.0,
+          "proxy_latency_ms": 18900.0,
+          "context_pressure": 0.04484375
+        },
+        {
+          "makespan": 113.37399911209903,
+          "mean_wait": 11.207446310330427,
+          "p95_wait": 32.60722730983818,
+          "fairness": 0.8639507347465517,
+          "messages": 99,
+          "throughput": 0.09702400979190742,
+          "proxy_tokens": 9020.0,
+          "proxy_latency_ms": 29700.0,
+          "context_pressure": 0.07046875
+        },
+        {
+          "makespan": 102.28188486257052,
+          "mean_wait": 12.16037042717228,
+          "p95_wait": 44.95319380239081,
+          "fairness": 0.7788097858281028,
+          "messages": 81,
+          "throughput": 0.08799212110817776,
+          "proxy_tokens": 7380.0,
+          "proxy_latency_ms": 24300.0,
+          "context_pressure": 0.05765625
+        },
+        {
+          "makespan": 93.20324086406535,
+          "mean_wait": 11.833811393718882,
+          "p95_wait": 31.87495127638976,
+          "fairness": 0.9414604386131489,
+          "messages": 99,
+          "throughput": 0.11802164708031163,
+          "proxy_tokens": 9020.0,
+          "proxy_latency_ms": 29700.0,
+          "context_pressure": 0.07046875
+        },
+        {
+          "makespan": 107.29061429354302,
+          "mean_wait": 16.011848611650315,
+          "p95_wait": 45.142961253312365,
+          "fairness": 0.8949192693223775,
+          "messages": 90,
+          "throughput": 0.0932047976968459,
+          "proxy_tokens": 8200.0,
+          "proxy_latency_ms": 27000.0,
+          "context_pressure": 0.0640625
+        },
+        {
+          "makespan": 81.57489463156163,
+          "mean_wait": 1.4147585225454296,
+          "p95_wait": 6.007576456039645,
+          "fairness": 0.8513691317366435,
+          "messages": 63,
+          "throughput": 0.08581071457849819,
+          "proxy_tokens": 5740.0,
+          "proxy_latency_ms": 18900.0,
+          "context_pressure": 0.04484375
+        },
+        {
+          "makespan": 73.43303987809392,
+          "mean_wait": 0.0,
+          "p95_wait": 0.0,
+          "fairness": 0.920009383169472,
+          "messages": 54,
+          "throughput": 0.08170709002324554,
+          "proxy_tokens": 4920.0,
+          "proxy_latency_ms": 16200.0,
+          "context_pressure": 0.0384375
+        },
+        {
+          "makespan": 131.309071506383,
+          "mean_wait": 12.519084554210723,
+          "p95_wait": 33.09177095051695,
+          "fairness": 0.9757214036889352,
+          "messages": 99,
+          "throughput": 0.08377182074176258,
+          "proxy_tokens": 9020.0,
+          "proxy_latency_ms": 29700.0,
+          "context_pressure": 0.07046875
+        },
+        {
+          "makespan": 124.26873668970721,
+          "mean_wait": 6.523383276316853,
+          "p95_wait": 23.771990152447458,
+          "fairness": 0.9099803764710479,
+          "messages": 72,
+          "throughput": 0.06437661002361035,
+          "proxy_tokens": 6560.0,
+          "proxy_latency_ms": 21600.0,
+          "context_pressure": 0.05125
+        },
+        {
+          "makespan": 81.06932655820557,
+          "mean_wait": 2.9612333138733695,
+          "p95_wait": 13.325549912430162,
+          "fairness": 0.919253289457078,
+          "messages": 54,
+          "throughput": 0.07401072951669535,
+          "proxy_tokens": 4920.0,
+          "proxy_latency_ms": 16200.0,
+          "context_pressure": 0.0384375
+        },
+        {
+          "makespan": 91.42777114710631,
+          "mean_wait": 5.728954014884645,
+          "p95_wait": 20.06833814227047,
+          "fairness": 0.729207351453716,
+          "messages": 81,
+          "throughput": 0.09843836163870927,
+          "proxy_tokens": 7380.0,
+          "proxy_latency_ms": 24300.0,
+          "context_pressure": 0.05765625
+        },
+        {
+          "makespan": 111.33882130063797,
+          "mean_wait": 9.592714974436722,
+          "p95_wait": 36.7092647789913,
+          "fairness": 0.9831408808562154,
+          "messages": 99,
+          "throughput": 0.09879752517136599,
+          "proxy_tokens": 9020.0,
+          "proxy_latency_ms": 29700.0,
+          "context_pressure": 0.07046875
+        },
+        {
+          "makespan": 88.31911642593212,
+          "mean_wait": 0.5442658260530813,
+          "p95_wait": 2.4491962172388657,
+          "fairness": 0.8098889190545255,
+          "messages": 54,
+          "throughput": 0.06793546225104997,
+          "proxy_tokens": 4920.0,
+          "proxy_latency_ms": 16200.0,
+          "context_pressure": 0.0384375
+        },
+        {
+          "makespan": 106.37816375946662,
+          "mean_wait": 17.304904370560028,
+          "p95_wait": 40.27342540514401,
+          "fairness": 0.9442380257488401,
+          "messages": 99,
+          "throughput": 0.10340468016417616,
+          "proxy_tokens": 9020.0,
+          "proxy_latency_ms": 29700.0,
+          "context_pressure": 0.07046875
+        },
+        {
+          "makespan": 126.236208646241,
+          "mean_wait": 14.012135425334508,
+          "p95_wait": 34.454483970243516,
+          "fairness": 0.9316926351292272,
+          "messages": 99,
+          "throughput": 0.08713823171627352,
+          "proxy_tokens": 9020.0,
+          "proxy_latency_ms": 29700.0,
+          "context_pressure": 0.07046875
+        },
+        {
+          "makespan": 114.75846910740651,
+          "mean_wait": 8.06286078444657,
+          "p95_wait": 27.082168933025976,
+          "fairness": 0.9595779098552247,
+          "messages": 63,
+          "throughput": 0.06099767672439454,
+          "proxy_tokens": 5740.0,
+          "proxy_latency_ms": 18900.0,
+          "context_pressure": 0.04484375
+        },
+        {
+          "makespan": 119.07683767166615,
+          "mean_wait": 11.138932265958786,
+          "p95_wait": 23.41744603271162,
+          "fairness": 0.9886642247057118,
+          "messages": 99,
+          "throughput": 0.09237732723748177,
+          "proxy_tokens": 9020.0,
+          "proxy_latency_ms": 29700.0,
+          "context_pressure": 0.07046875
+        },
+        {
+          "makespan": 95.6165247946932,
+          "mean_wait": 5.317267199284769,
+          "p95_wait": 23.130434765592568,
+          "fairness": 0.7985477860553695,
+          "messages": 72,
+          "throughput": 0.08366754613993256,
+          "proxy_tokens": 6560.0,
+          "proxy_latency_ms": 21600.0,
+          "context_pressure": 0.05125
+        },
+        {
+          "makespan": 117.21996822400925,
+          "mean_wait": 15.91336389008876,
+          "p95_wait": 45.5260880838364,
+          "fairness": 0.9668587627586845,
+          "messages": 99,
+          "throughput": 0.09384066696707188,
+          "proxy_tokens": 9020.0,
+          "proxy_latency_ms": 29700.0,
+          "context_pressure": 0.07046875
+        },
+        {
+          "makespan": 97.6211742256051,
+          "mean_wait": 7.6405321919946765,
+          "p95_wait": 29.962580393776207,
+          "fairness": 0.8972527449414863,
+          "messages": 99,
+          "throughput": 0.11268047211334203,
+          "proxy_tokens": 9020.0,
+          "proxy_latency_ms": 29700.0,
+          "context_pressure": 0.07046875
+        }
+      ]
+    },
+    "CBBA": {
+      "aggregate": {
+        "makespan": {
+          "mean": 135.06542472482698,
+          "std": 52.8995039464024
+        },
+        "mean_wait": {
+          "mean": 17.461258782129846,
+          "std": 13.14179640753002
+        },
+        "p95_wait": {
+          "mean": 52.63538378989936,
+          "std": 36.154892548195924
+        },
+        "fairness": {
+          "mean": 0.7525012153019393,
+          "std": 0.11904751473528576
+        },
+        "messages": {
+          "mean": 100.8,
+          "std": 20.37955631974047
+        },
+        "throughput": {
+          "mean": 0.07188927864129983,
+          "std": 0.01969192963430371
+        },
+        "proxy_tokens": {
+          "mean": 6048.0,
+          "std": 1222.773379184428
+        },
+        "proxy_latency_ms": {
+          "mean": 30240.0,
+          "std": 6113.866895922141
+        },
+        "context_pressure": {
+          "mean": 0.04725,
+          "std": 0.009552917024878345
+        }
+      },
+      "trials": [
+        {
+          "makespan": 113.54740359190889,
+          "mean_wait": 13.127032362228212,
+          "p95_wait": 38.51005128407564,
+          "fairness": 0.8286960595643327,
+          "messages": 96,
+          "throughput": 0.06164826124213379,
+          "proxy_tokens": 5760.0,
+          "proxy_latency_ms": 28800.0,
+          "context_pressure": 0.045
+        },
+        {
+          "makespan": 101.62681560300821,
+          "mean_wait": 12.428440305866594,
+          "p95_wait": 43.129712414932754,
+          "fairness": 0.8498302164892663,
+          "messages": 132,
+          "throughput": 0.10823914864133943,
+          "proxy_tokens": 7920.0,
+          "proxy_latency_ms": 39600.0,
+          "context_pressure": 0.061875
+        },
+        {
+          "makespan": 114.69152038196486,
+          "mean_wait": 11.386377929656966,
+          "p95_wait": 41.263485473042074,
+          "fairness": 0.9025042233694501,
+          "messages": 96,
+          "throughput": 0.07847136361979243,
+          "proxy_tokens": 5760.0,
+          "proxy_latency_ms": 28800.0,
+          "context_pressure": 0.045
+        },
+        {
+          "makespan": 114.96251091429345,
+          "mean_wait": 19.780885709893848,
+          "p95_wait": 53.20585357724417,
+          "fairness": 0.867643980155855,
+          "messages": 108,
+          "throughput": 0.09568336592961763,
+          "proxy_tokens": 6480.0,
+          "proxy_latency_ms": 32400.0,
+          "context_pressure": 0.050625
+        },
+        {
+          "makespan": 177.11980068199898,
+          "mean_wait": 33.98033094252476,
+          "p95_wait": 93.70814715216963,
+          "fairness": 0.6240646994945807,
+          "messages": 96,
+          "throughput": 0.05645896145713266,
+          "proxy_tokens": 5760.0,
+          "proxy_latency_ms": 28800.0,
+          "context_pressure": 0.045
+        },
+        {
+          "makespan": 116.98802511536371,
+          "mean_wait": 8.970161903155752,
+          "p95_wait": 28.243991715303014,
+          "fairness": 0.5259454175742811,
+          "messages": 96,
+          "throughput": 0.059835183926706954,
+          "proxy_tokens": 5760.0,
+          "proxy_latency_ms": 28800.0,
+          "context_pressure": 0.045
+        },
+        {
+          "makespan": 76.38771290553065,
+          "mean_wait": 3.6581160030694897,
+          "p95_wait": 11.846953341452188,
+          "fairness": 0.6334171805418439,
+          "messages": 84,
+          "throughput": 0.07854666374709049,
+          "proxy_tokens": 5040.0,
+          "proxy_latency_ms": 25200.0,
+          "context_pressure": 0.039375
+        },
+        {
+          "makespan": 113.97087470626622,
+          "mean_wait": 16.162970956922777,
+          "p95_wait": 50.451539107355615,
+          "fairness": 0.9135969877320991,
+          "messages": 108,
+          "throughput": 0.09651588643458231,
+          "proxy_tokens": 6480.0,
+          "proxy_latency_ms": 32400.0,
+          "context_pressure": 0.050625
+        },
+        {
+          "makespan": 143.22043402007765,
+          "mean_wait": 12.21929894088282,
+          "p95_wait": 37.971126881882256,
+          "fairness": 0.6823287738191859,
+          "messages": 84,
+          "throughput": 0.05585795109990034,
+          "proxy_tokens": 5040.0,
+          "proxy_latency_ms": 25200.0,
+          "context_pressure": 0.039375
+        },
+        {
+          "makespan": 94.07460594678227,
+          "mean_wait": 7.280542616134589,
+          "p95_wait": 19.138909344816913,
+          "fairness": 0.6047098593811238,
+          "messages": 72,
+          "throughput": 0.06377916696663266,
+          "proxy_tokens": 4320.0,
+          "proxy_latency_ms": 21600.0,
+          "context_pressure": 0.03375
+        },
+        {
+          "makespan": 118.49157777512578,
+          "mean_wait": 11.877424978096371,
+          "p95_wait": 40.36149687758733,
+          "fairness": 0.7113865115170954,
+          "messages": 96,
+          "throughput": 0.07595476546932534,
+          "proxy_tokens": 5760.0,
+          "proxy_latency_ms": 28800.0,
+          "context_pressure": 0.045
+        },
+        {
+          "makespan": 155.00374565166612,
+          "mean_wait": 20.340160047407277,
+          "p95_wait": 61.50236625023971,
+          "fairness": 0.6507149789314581,
+          "messages": 84,
+          "throughput": 0.07096602700634004,
+          "proxy_tokens": 5040.0,
+          "proxy_latency_ms": 25200.0,
+          "context_pressure": 0.039375
+        },
+        {
+          "makespan": 88.31911642593212,
+          "mean_wait": 0.5442658260530813,
+          "p95_wait": 2.4491962172388657,
+          "fairness": 0.8098889190545255,
+          "messages": 72,
+          "throughput": 0.06793546225104997,
+          "proxy_tokens": 4320.0,
+          "proxy_latency_ms": 21600.0,
+          "context_pressure": 0.03375
+        },
+        {
+          "makespan": 173.38070498752205,
+          "mean_wait": 38.887721045280266,
+          "p95_wait": 126.52685934192293,
+          "fairness": 0.7740600076298251,
+          "messages": 96,
+          "throughput": 0.06344419928844823,
+          "proxy_tokens": 5760.0,
+          "proxy_latency_ms": 28800.0,
+          "context_pressure": 0.045
+        },
+        {
+          "makespan": 322.6269596368925,
+          "mean_wait": 52.93815934362806,
+          "p95_wait": 141.69923770997252,
+          "fairness": 0.5588323427344006,
+          "messages": 108,
+          "throughput": 0.03409510479961188,
+          "proxy_tokens": 6480.0,
+          "proxy_latency_ms": 32400.0,
+          "context_pressure": 0.050625
+        },
+        {
+          "makespan": 147.04238990466473,
+          "mean_wait": 13.458980924473833,
+          "p95_wait": 44.56470436779217,
+          "fairness": 0.8093153611475435,
+          "messages": 96,
+          "throughput": 0.04760531983014195,
+          "proxy_tokens": 5760.0,
+          "proxy_latency_ms": 28800.0,
+          "context_pressure": 0.045
+        },
+        {
+          "makespan": 132.58923179715973,
+          "mean_wait": 13.924901855209464,
+          "p95_wait": 48.713107196188815,
+          "fairness": 0.8773012439781894,
+          "messages": 132,
+          "throughput": 0.08296299669967344,
+          "proxy_tokens": 7920.0,
+          "proxy_latency_ms": 39600.0,
+          "context_pressure": 0.061875
+        },
+        {
+          "makespan": 120.96737470143283,
+          "mean_wait": 13.155457779858494,
+          "p95_wait": 42.94589171427778,
+          "fairness": 0.8444333636160081,
+          "messages": 84,
+          "throughput": 0.0661335341016146,
+          "proxy_tokens": 5040.0,
+          "proxy_latency_ms": 25200.0,
+          "context_pressure": 0.039375
+        },
+        {
+          "makespan": 177.93609169305302,
+          "mean_wait": 36.41673998438149,
+          "p95_wait": 99.22312246475265,
+          "fairness": 0.7944153556373309,
+          "messages": 144,
+          "throughput": 0.061819948360872436,
+          "proxy_tokens": 8640.0,
+          "proxy_latency_ms": 43200.0,
+          "context_pressure": 0.0675
+        },
+        {
+          "makespan": 98.36159805589558,
+          "mean_wait": 8.687206187872782,
+          "p95_wait": 27.251923365740176,
+          "fairness": 0.7869388236703906,
+          "messages": 132,
+          "throughput": 0.11183226195399011,
+          "proxy_tokens": 7920.0,
+          "proxy_latency_ms": 39600.0,
+          "context_pressure": 0.061875
+        }
+      ]
+    }
+  },
+  "sha256": {
+    "results_published_original.json": "c6c3579c77533c0081afd063924ee60b298cf370f481145c924e411dc2a2fbf0",
+    "llm_results.json": "2f91c512ab145149e995d8f866ce6d8b41be81ee577140106b034fb42ad6dc8f",
+    "llm_sweep_n16.json": "bffa2aa5b83b99249485de33540016f990e1394fb5d688a37a930d812c614e04",
+    "llm_sweep_n24.json": "1415e4bbd1308bc948dda0807fda778a85c5d2d3abd16187828d6017ddcd7f92",
+    "llm_sweep_n8.json": "c713e06366697e7cd41055a6ab44f9ba98c52cbf706d89bc614dcb22ad976d7f"
+  }
+}
