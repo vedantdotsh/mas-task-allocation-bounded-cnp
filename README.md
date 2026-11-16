@@ -47,3 +47,13 @@ See its `--help` for model, trial and call-limit options. It does not load a key
 
 Corrected SSI/CBBA batch timing and CBBA bundle accounting; added Experiment 6
 (state-tracking manager). The earlier rebuilt study remains available in git history.
+
+## Reading the saved results
+
+In Experiment 5, the `rebids` field counts awards whose quote failed the
+reliability threshold, including after the final allowed round. The number of
+extra bidding rounds actually run is the message difference between the
+re-bidding and single-round runs divided by 2k + 1 = 11 (about 155 per trial at
+noise 0.5). CBBA is run as a sequential shared-table adaptation: agents update a
+shared winning-bid table in turn over a fully connected network, and each sweep
+is counted as one round of n(n - 1) messages.
